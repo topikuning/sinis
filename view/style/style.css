@@ -1,0 +1,166 @@
+.hd {
+    font-size:11pt;
+    font-family:verdana; 
+    font-weight: bold;
+    background-color: #D4D4D4;
+}
+body {
+    font-family: sans-serif;
+    font-size:10px;
+}
+.data{
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.printArea{
+    font-family: serif;
+    font-size: 11pt;
+}
+.headerTagihan{
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+.total{
+    font-weight: bold;
+    border-top: 1px solid #000000;
+}
+.details-info {
+    margin:15px;
+    padding:15px;
+    border:1px dotted #999;
+    color:#555;
+    background: #f9f9f9;
+}
+input {
+    border:1px solid #ccc;
+    padding:2px;
+    font-family: sans-serif;
+    font-size:11px;
+}
+
+textarea {
+    border:1px solid #ccc;
+    padding:2px;
+    font-family: sans-serif;
+    font-size:11px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size:11px;
+}
+
+select {
+    border:1px solid #ccc;
+    padding:2px;
+    font-family: sans-serif;
+    font-size:11px;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #fcefa1/*{borderColorHighlight}*/; background: #fbf9ee/*{bgColorHighlight}*/ url(images/ui-bg_glass_55_fbf9ee_1x400.png)/*{bgImgUrlHighlight}*/ 50%/*{bgHighlightXPos}*/ 50%/*{bgHighlightYPos}*/ repeat-x/*{bgHighlightRepeat}*/; color: #ff0000/*{fcHighlight}*/; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636/*{fcHighlight}*/; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a/*{borderColorError}*/; background: #fef1ec/*{bgColorError}*/ url(images/ui-bg_glass_95_fef1ec_1x400.png)/*{bgImgUrlError}*/ 50%/*{bgErrorXPos}*/ 50%/*{bgErrorYPos}*/ repeat-x/*{bgErrorRepeat}*/; color: #cd0a0a/*{fcError}*/; }
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #cd0a0a/*{fcError}*/; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #cd0a0a/*{fcError}*/; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+#wrapper {
+    margin-left: auto; 
+    position: relative; 
+    margin-right: auto; 
+    margin-top:75px ;
+    width:  200px;
+}
+
+.ausu-suggest input {
+    border:1px #CCC solid;
+    font-size:14px;
+}
+
+.ausu-suggestionsBox {
+    position: absolute;
+    left: 0px;
+    top:-2px;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin: 26px 0px 0px 0px;
+    width: 200px;
+    padding:0px;
+    color: #fff;
+    display: none;
+    padding: 0 0 0 0;
+}
+
+.ausu-suggestionsBox ul {
+    list-style:none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #99FF99;
+    height: 170px;
+    overflow-y:scroll ;
+    position: absolute;
+    z-index:1000;
+}
+
+.ausu-suggestionsBox ul li a {
+    display: block;
+    text-indent:  4px;
+    width: 95%;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom:1px solid #666;
+}
+
+.ausu-load { background: url(../images/loader.gif) right no-repeat; }
+
+.ausu-suggest
+{
+    position:relative;
+    float: left;
+}
+
+.selected a
+{
+    background-color: #fcfcfc;
+    color:#FFF;
+}
+
+input.autocomplete-loading
+{
+    background-image:url(autocomplete.gif);
+    background-position: center right;
+    background-repeat:no-repeat;
+}
+ul.autocomplete 
+{
+    position: absolute;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid ButtonShadow;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: #000;
+    display:none;
+    z-index:1000;
+}
+ul.autocomplete li 
+{
+    display: block; 
+    padding: 0.3em; 
+    overflow: hidden;
+    width: 100%;
+    cursor:pointer;
+}
+
+ul.autocomplete li.selected 
+{
+    background-color: Highlight ; 
+    color: #fff;
+}

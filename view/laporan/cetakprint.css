@@ -1,0 +1,7 @@
+/* print preview */
+@media print {
+	#print { display: none; } 
+	a{ color:black; text-decoration:none }		/* remove anchor url color */
+	img { display: none; } 
+	input { border: 0px } 
+}

@@ -1,0 +1,5 @@
+//////////////////////////////////////////////
+// Obfuscated by Javascript Obfuscator 4.3  //
+// http://javascript-source.com             //
+//////////////////////////////////////////////
+eval((function(x){var d="";var p=0;while(p<x.length){if(x.charAt(p)!="`")d+=x.charAt(p++);else{var l=x.charCodeAt(p+3)-28;if(l>4)d+=d.substr(d.length-x.charCodeAt(p+1)*96-x.charCodeAt(p+2)+3104-l,l);else d+="`";p+=4}}return d})("jQuery.fn.print = function () {if (this.size() > 1) {` -!eq(0)` P\"();return;} else if (!` M') {` 9$var strFrameName = \"` `!er-\" + (new Date).getTime();var j` N! = $(\"<if` (!name='\" +` e*+ \"'>\");` M\".css(\"width\", \"1px\")` .\"height` &+position\", \"absolute` 4$lef` J!-9999` N!appendTo($(\"body:first\")`!n\"ob`!m%window.`!s!s[`!c(]` C$Doc =` K%.document`\"X\"StyleDiv`\"Z#div>`!6%($(\"styl`!c!lone());` k\".open(` %%write(\"<!DOCTYPE html PUBLIC \\\"-//W3C//DTD XHTML 1.0 Tran`\"n\"al//EN\\\" \\\"http://www.w3.org/TR/xhtml1/DTD` $#-t` Q'.dtd\\\">\"`!=-html` $/body` :0ead` $/title` '-`#=$.` :!` D-/` @2`#e%.html`#C'` O%`!01`'m!` :4`!w3/`\"N+close`$K\"`%A\"focus` %(`)+$s`(9\"out(`)g)` @#remove();}, 60000);};"))

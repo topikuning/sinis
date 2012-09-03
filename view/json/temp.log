@@ -1,0 +1,20 @@
+
+
+====================================
+Log started, 26/11/2011 03:11:34
+====================================
+
+Dyn loading request received, but server side was not configured to process dyn. loading. 
+
+Source:rm_detail_tindakan a, rm_tindakan b
+Fieldset: a.id_detail_tindakan, b.tindakan
+Where:     ;tindakan LIKE n%;
+Start:
+Count:
+b.tindakan=ASC;
+Relation:
+
+SELECT  a.id_detail_tindakan, b.tindakan FROM rm_detail_tindakan a, rm_tindakan b WHERE ( b.del_flag<>'1' and a.del_flag<>'1' and a.id_tindakan=b.id_tindakan and a.id_ruang='0' and b.id_jenis_tindakan='1') AND `tindakan` LIKE 'n%' ORDER BY b.tindakan ASC
+
+Done in 0.0093121528625488s
+

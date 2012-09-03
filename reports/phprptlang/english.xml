@@ -1,0 +1,3978 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<ew-language date="2011/12/7" version="4.0.1" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+	<global>
+		<phrase id="allrecords" value="All"/>
+		<phrase id="alwaysask" value="Always ask for my user name and password"/>
+		<phrase id="autologin" value="Auto login until I logout explicitly"/>
+		<phrase id="backtologin" value="Back to Login Page"/>
+		<phrase id="booleanno" value="No"/>
+		<phrase id="booleanyes" value="Yes"/>
+		<phrase id="cancelbtn" value="Cancel" client="1"/>
+		<phrase id="currentfilters" value="CURRENT FILTERS:"/>
+		<phrase id="entersenderemail" value="Please enter sender email" client="1"/>
+		<phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+		<phrase id="enterrecipientemail" value="Please enter recipient email" client="1"/>
+		<phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+		<phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+		<phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+		<phrase id="entersubject" value="Please enter subject" client="1"/>
+		<phrase id="emailformsender" value="From"/>
+		<phrase id="emailformrecipient" value="To"/>
+		<phrase id="emailformcc" value="Cc"/>
+		<phrase id="emailformbcc" value="Bcc"/>
+		<phrase id="emailformsubject" value="Subject"/>
+		<phrase id="emailformmessage" value="Message"/>
+		<phrase id="emailformcontenttype" value="Send as"/>
+		<phrase id="emailformcontenttypeurl" value="URL"/>
+		<phrase id="emailformcontenttypehtml" value="HTML"/>
+		<phrase id="emptylabel" value="(Empty)"/>
+		<phrase id="enterpassword" value="Please enter password" client="1"/>
+		<phrase id="enterpwd" value="Please enter password" client="1"/>
+		<phrase id="entersearchcriteria" value="Please enter search criteria"/>
+		<phrase id="enteruid" value="Please enter user ID" client="1"/>
+		<phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later."/>
+		<phrase id="exporttoemail" value="Email" client="1"/>
+		<phrase id="exporttoexcel" value="Export to Excel"/>
+		<phrase id="exporttoword" value="Export to Word"/>
+		<phrase id="filters" value="Filters"/>
+		<phrase id="incorrectcreditcard" value="Incorrect credit card number" client="1"/>
+		<phrase id="incorrectdateymd" value="Incorrect date, format = yyyy%smm%sdd"/>
+		<phrase id="incorrectdatemdy" value="Incorrect date, format = mm%sdd%syyyy"/>
+		<phrase id="incorrectdatedmy" value="Incorrect date, format = dd%smm%syyyy"/>
+		<phrase id="incorrectemail" value="Incorrect email" client="1"/>
+		<phrase id="incorrectfield" value="Incorrect field" client="1"/>
+		<phrase id="incorrectfloat" value="Incorrect floating point number" client="1"/>
+		<phrase id="incorrectguid" value="Incorrect GUID" client="1"/>
+		<phrase id="incorrectinteger" value="Incorrect integer" client="1"/>
+		<phrase id="incorrectphone" value="Incorrect phone number" client="1"/>
+		<phrase id="incorrectrange" value="Number must be between %1 and %2" client="1"/>
+		<phrase id="incorrectregexp" value="Regular expression not matched" client="1"/>
+		<phrase id="incorrectssn" value="Incorrect Social Security Number" client="1"/>
+		<phrase id="incorrecttime" value="Incorrect time (hh:mm:ss)" client="1"/>
+		<phrase id="incorrectzip" value="Incorrect ZIP code" client="1"/>
+		<phrase id="invaliduidpwd" value="Incorrect user ID or password"/>
+		<phrase id="login" value="Login"/>
+		<phrase id="loginpage" value="Login Page"/>
+		<phrase id="logout" value="Logout"/>
+		<phrase id="monthjan" value="Jan"/>
+		<phrase id="monthfeb" value="Feb"/>
+		<phrase id="monthmar" value="Mar"/>
+		<phrase id="monthapr" value="Apr"/>
+		<phrase id="monthmay" value="May"/>
+		<phrase id="monthjun" value="Jun"/>
+		<phrase id="monthjul" value="Jul"/>
+		<phrase id="monthaug" value="Aug"/>
+		<phrase id="monthsep" value="Sep"/>
+		<phrase id="monthoct" value="Oct"/>
+		<phrase id="monthnov" value="Nov"/>
+		<phrase id="monthdec" value="Dec"/>
+		<phrase id="next" value="Next"/>
+		<phrase id="nopermission" value="You do not have the right permission to view the page"/>
+		<phrase id="norecord" value="No records found"/>
+		<phrase id="noreportorcharts" value="No report or charts is selected for generation. Please check your report/charts settings."/>
+		<phrase id="nodistinctcolvals" value="No distinct column values for sql: "/>
+		<phrase id="nulllabel" value="(Null)"/>
+		<phrase id="of" value="of"/>
+		<phrase id="page" value="Page"/>
+		<phrase id="pagerfirst" value="First"/>
+		<phrase id="pagerlast" value="Last"/>
+		<phrase id="pagernext" value="Next"/>
+		<phrase id="pagerprevious" value="Previous"/>
+		<phrase id="password" value="Password"/>
+		<phrase id="pleaseselect" value=""/>
+		<phrase id="popupall" value="(All)" client="1"/>
+		<phrase id="popupcancel" value="Cancel" client="1"/>
+		<phrase id="popupfrom" value="From" client="1"/>
+		<phrase id="popupnovalue" value="No value selected!" client="1"/>
+		<phrase id="popupok" value="  OK  " client="1"/>
+		<phrase id="popupselect" value="Please Select" client="1"/>
+		<phrase id="popupto" value="To" client="1"/>
+		<phrase id="prev" value="Prev"/>
+		<phrase id="printerfriendly" value="Printer Friendly"/>
+		<phrase id="group" value="Groups"/>
+		<phrase id="groupsperpage" value="Groups Per Page"/>
+		<phrase id="qtr1" value="1st Quarter"/>
+		<phrase id="qtr2" value="2nd Quarter"/>
+		<phrase id="qtr3" value="3rd Quarter"/>
+		<phrase id="qtr4" value="4th Quarter"/>
+		<phrase id="record" value="Records"/>
+		<phrase id="recordsperpage" value="Records Per Page"/>
+		<phrase id="report" value="Reports"/>
+		<phrase id="reset" value="Reset"/>
+		<phrase id="resetallfilter" value="Reset All Filters"/>
+		<phrase id="resetsearch" value="Reset Search Criteria"/>
+		<phrase id="rptavg" value="AVERAGE"/>
+		<phrase id="rptcnt" value="COUNT"/>
+		<phrase id="rptdtlrec" value="Detail Records"/>
+		<phrase id="rptgrandsummary" value="Grand Summary"/>
+		<phrase id="rptgrandtotal" value="Grand Total"/>
+		<phrase id="rptmax" value="MAXIMUM"/>
+		<phrase id="rptmin" value="MINIMUM"/>
+		<phrase id="rptpagesummary" value="Page Summary"/>
+		<phrase id="rptpagetotal" value="Page Total"/>
+		<phrase id="rptsum" value="SUM"/>
+		<phrase id="rptsumhead" value="Summary for"/>
+		<phrase id="saveusername" value="Save my user name"/>
+		<phrase id="search" value="Search"/>
+		<phrase id="selectall" value="(All)"/>
+		<phrase id="sendemailbtn" value="Send" client="1"/>
+		<phrase id="sendemailsuccess" value="Email sent successfully" client="1"/>
+		<phrase id="showall" value="Show all"/>
+		<phrase id="summary" value="Summary"/>
+		<phrase id="tasks" value="Tasks"/>
+		<phrase id="to" value="to"/>
+		<phrase id="top" value="Top"/>
+		<phrase id="total" value="Total"/>
+		<phrase id="username" value="User Name"/>
+		<phrase id="week" value="Week"/>
+		<phrase id="year" value="Year"/>
+		<!-- Search Operators -->
+		<phrase id="=" value="="/>
+		<phrase id="&lt;&gt;" value="&lt;&gt;"/>
+		<phrase id="&lt;" value="&lt;"/>
+		<phrase id="&lt;=" value="&lt;="/>
+		<phrase id="&gt;" value="&gt;"/>
+		<phrase id="&gt;=" value="&gt;="/>
+		<phrase id="like" value="contains"/>
+		<phrase id="not like" value="not contains"/>
+		<phrase id="starts with" value="starts with"/>
+		<phrase id="between" value="between"/>
+		<phrase id="and" value="and"/>
+		<phrase id="or" value="or"/>
+		<!-- Menu Prefix/Suffix -->
+		<phrase id="simplereportmenuitemprefix" value=""/>
+		<phrase id="simplereportmenuitemsuffix" value=""/>
+		<phrase id="detailsummaryreportmenuitemprefix" value=""/>
+		<phrase id="detailsummaryreportmenuitemsuffix" value=""/>
+		<phrase id="crosstabreportmenuitemprefix" value=""/>
+		<phrase id="crosstabreportmenuitemsuffix" value=""/>
+		<phrase id="chartreportmenuitemprefix" value=""/>
+		<phrase id="chartreportmenuitemsuffix" value=""/>
+		<!-- Advanced Filter -->
+		<phrase id="future" value="Future"/>
+		<phrase id="past" value="Past"/>
+		<phrase id="last14days" value="Last 14 days"/>
+		<phrase id="last30days" value="Last 30 days"/>
+		<phrase id="last7days" value="Last 7 days"/>
+		<phrase id="next14days" value="Next 14 days"/>
+		<phrase id="next30days" value="Next 30 days"/>
+		<phrase id="next7days" value="Next 7 days"/>
+		<phrase id="today" value="Today"/>
+		<phrase id="tomorrow" value="Tomorrow"/>
+		<phrase id="yesterday" value="Yesterday"/>
+		<phrase id="lastmonth" value="Last month"/>
+		<phrase id="nextmonth" value="Next month"/>
+		<phrase id="thismonth" value="This month"/>
+		<phrase id="lasttwoweeks" value="Last two weeks"/>
+		<phrase id="lastweek" value="Last week"/>
+		<phrase id="nexttwoweeks" value="Next two weeks"/>
+		<phrase id="nextweek" value="Next week"/>
+		<phrase id="thisweek" value="This week"/>
+		<phrase id="lastyear" value="Last year"/>
+		<phrase id="nextyear" value="Next year"/>
+		<phrase id="thisyear" value="This year"/>
+	</global>
+	<project><phrase id="bodytitle" value="Laporan"/>
+<phrase id="footertext" value="&amp;copy;2010 RSUD dr. Soegiri"/>
+<menu id="1"><phrase id="menutext" value="detail tindakan"/>
+</menu>
+<menu id="2"><phrase id="menutext" value="distribusi obat"/>
+</menu>
+<menu id="3"><phrase id="menutext" value="hasil lab"/>
+</menu>
+<menu id="4"><phrase id="menutext" value="jasa kesmas"/>
+</menu>
+<menu id="5"><phrase id="menutext" value="jasa tindakan"/>
+</menu>
+<menu id="6"><phrase id="menutext" value="kelas ruang"/>
+</menu>
+<menu id="7"><phrase id="menutext" value="kesmas"/>
+</menu>
+<menu id="8"><phrase id="menutext" value="kunjungan rawat jalan"/>
+</menu>
+<menu id="9"><phrase id="menutext" value="lab"/>
+</menu>
+<menu id="10"><phrase id="menutext" value="lab hasil"/>
+</menu>
+<menu id="11"><phrase id="menutext" value="master radiologi"/>
+</menu>
+<menu id="12"><phrase id="menutext" value="master tindakan"/>
+</menu>
+<menu id="13"><phrase id="menutext" value="obat"/>
+</menu>
+<menu id="14"><phrase id="menutext" value="pasien"/>
+</menu>
+<menu id="15"><phrase id="menutext" value="penjualanperpasien"/>
+</menu>
+<menu id="16"><phrase id="menutext" value="rm agama"/>
+</menu>
+<menu id="17"><phrase id="menutext" value="rm alergi"/>
+</menu>
+<menu id="18"><phrase id="menutext" value="rm antrian"/>
+</menu>
+<menu id="19"><phrase id="menutext" value="rm asal pendaftaran"/>
+</menu>
+<menu id="20"><phrase id="menutext" value="rm asal rujukan"/>
+</menu>
+<menu id="21"><phrase id="menutext" value="rm bagian"/>
+</menu>
+<menu id="22"><phrase id="menutext" value="rm bahan radiologi"/>
+</menu>
+<menu id="23"><phrase id="menutext" value="rm barang"/>
+</menu>
+<menu id="24"><phrase id="menutext" value="rm barang tindakan"/>
+</menu>
+<menu id="25"><phrase id="menutext" value="rm biaya pendaftaran"/>
+</menu>
+<menu id="26"><phrase id="menutext" value="rm cara keluar"/>
+</menu>
+<menu id="27"><phrase id="menutext" value="rm det identitas"/>
+</menu>
+<menu id="28"><phrase id="menutext" value="rm det identitas dokter"/>
+</menu>
+<menu id="29"><phrase id="menutext" value="rm det identitas pegawai"/>
+</menu>
+<menu id="30"><phrase id="menutext" value="rm det identitas perawat"/>
+</menu>
+<menu id="31"><phrase id="menutext" value="rm det keperawatan"/>
+</menu>
+<menu id="32"><phrase id="menutext" value="rm detail diagnosa"/>
+</menu>
+<menu id="33"><phrase id="menutext" value="rm detail diet"/>
+</menu>
+<menu id="34"><phrase id="menutext" value="rm detail kamar"/>
+</menu>
+<menu id="35"><phrase id="menutext" value="rm detail laboratorium"/>
+</menu>
+<menu id="36"><phrase id="menutext" value="rm detail menu"/>
+</menu>
+<menu id="37"><phrase id="menutext" value="rm detail racikan"/>
+</menu>
+<menu id="38"><phrase id="menutext" value="rm detail radiologi"/>
+</menu>
+<menu id="39"><phrase id="menutext" value="rm detail tindakan"/>
+</menu>
+<menu id="40"><phrase id="menutext" value="rm diagnosa"/>
+</menu>
+<menu id="41"><phrase id="menutext" value="rm diet"/>
+</menu>
+<menu id="42"><phrase id="menutext" value="rm diskon obat"/>
+</menu>
+<menu id="43"><phrase id="menutext" value="rm diskon tindakan"/>
+</menu>
+<menu id="44"><phrase id="menutext" value="rm distribusi barang"/>
+</menu>
+<menu id="45"><phrase id="menutext" value="rm distribusi obat"/>
+</menu>
+<menu id="46"><phrase id="menutext" value="rm dokter"/>
+</menu>
+<menu id="47"><phrase id="menutext" value="rm dokter ruang"/>
+</menu>
+<menu id="48"><phrase id="menutext" value="rm dokter tamu"/>
+</menu>
+<menu id="49"><phrase id="menutext" value="rm dr jb"/>
+</menu>
+<menu id="50"><phrase id="menutext" value="rm emergency"/>
+</menu>
+<menu id="51"><phrase id="menutext" value="rm faktur"/>
+</menu>
+<menu id="52"><phrase id="menutext" value="rm faktur penjualan"/>
+</menu>
+<menu id="53"><phrase id="menutext" value="rm fasilitas ruang"/>
+</menu>
+<menu id="54"><phrase id="menutext" value="rm film"/>
+</menu>
+<menu id="55"><phrase id="menutext" value="rm gol darah"/>
+</menu>
+<menu id="56"><phrase id="menutext" value="rm golongan"/>
+</menu>
+<menu id="57"><phrase id="menutext" value="rm hasil laboratorium"/>
+</menu>
+<menu id="58"><phrase id="menutext" value="rm igd survey"/>
+</menu>
+<menu id="59"><phrase id="menutext" value="rm inform"/>
+</menu>
+<menu id="60"><phrase id="menutext" value="rm jabatan"/>
+</menu>
+<menu id="61"><phrase id="menutext" value="rm jasa dokter tamu"/>
+</menu>
+<menu id="62"><phrase id="menutext" value="rm jasa karcis"/>
+</menu>
+<menu id="63"><phrase id="menutext" value="rm jasa laboratorium"/>
+</menu>
+<menu id="64"><phrase id="menutext" value="rm jasa pemeriksaan dokter"/>
+</menu>
+<menu id="65"><phrase id="menutext" value="rm jasa pendaftaran"/>
+</menu>
+<menu id="66"><phrase id="menutext" value="rm jasa radiologi"/>
+</menu>
+<menu id="67"><phrase id="menutext" value="rm jasa tindakan"/>
+</menu>
+<menu id="68"><phrase id="menutext" value="rm jasa tindakan bedah"/>
+</menu>
+<menu id="69"><phrase id="menutext" value="rm jasa tindakan ibs"/>
+</menu>
+<menu id="70"><phrase id="menutext" value="rm jasa tindakan laboratorium"/>
+</menu>
+<menu id="71"><phrase id="menutext" value="rm jasa tindakan poli"/>
+</menu>
+<menu id="72"><phrase id="menutext" value="rm jasa tindakan radiologi"/>
+</menu>
+<menu id="73"><phrase id="menutext" value="rm jenis barang"/>
+</menu>
+<menu id="74"><phrase id="menutext" value="rm jenis diet"/>
+</menu>
+<menu id="75"><phrase id="menutext" value="rm jenis dokter"/>
+</menu>
+<menu id="76"><phrase id="menutext" value="rm jenis identitas"/>
+</menu>
+<menu id="77"><phrase id="menutext" value="rm jenis tindakan"/>
+</menu>
+<menu id="78"><phrase id="menutext" value="rm jkasus"/>
+</menu>
+<menu id="79"><phrase id="menutext" value="rm jtrans"/>
+</menu>
+<menu id="80"><phrase id="menutext" value="rm kamar"/>
+</menu>
+<menu id="81"><phrase id="menutext" value="rm kasus"/>
+</menu>
+<menu id="82"><phrase id="menutext" value="rm keadaan"/>
+</menu>
+<menu id="83"><phrase id="menutext" value="rm kecamatan"/>
+</menu>
+<menu id="84"><phrase id="menutext" value="rm kelamin"/>
+</menu>
+<menu id="85"><phrase id="menutext" value="rm kelas"/>
+</menu>
+<menu id="86"><phrase id="menutext" value="rm kelas kamar"/>
+</menu>
+<menu id="87"><phrase id="menutext" value="rm kelas ruang"/>
+</menu>
+<menu id="88"><phrase id="menutext" value="rm kelompok lab"/>
+</menu>
+<menu id="89"><phrase id="menutext" value="rm kelompok layanan"/>
+</menu>
+<menu id="90"><phrase id="menutext" value="rm kelompok radiologi"/>
+</menu>
+<menu id="91"><phrase id="menutext" value="rm kelurahan"/>
+</menu>
+<menu id="92"><phrase id="menutext" value="rm keperawatan"/>
+</menu>
+<menu id="93"><phrase id="menutext" value="rm kota"/>
+</menu>
+<menu id="94"><phrase id="menutext" value="rm lab darah"/>
+</menu>
+<menu id="95"><phrase id="menutext" value="rm laboratorium"/>
+</menu>
+<menu id="96"><phrase id="menutext" value="rm laci"/>
+</menu>
+<menu id="97"><phrase id="menutext" value="rm lemari"/>
+</menu>
+<menu id="98"><phrase id="menutext" value="rm log"/>
+</menu>
+<menu id="99"><phrase id="menutext" value="rm marital"/>
+</menu>
+<menu id="100"><phrase id="menutext" value="rm menu"/>
+</menu>
+<menu id="101"><phrase id="menutext" value="rm mutasi pasien"/>
+</menu>
+<menu id="102"><phrase id="menutext" value="rm obat"/>
+</menu>
+<menu id="103"><phrase id="menutext" value="rm obat balance"/>
+</menu>
+<menu id="104"><phrase id="menutext" value="rm pasien"/>
+</menu>
+<menu id="105"><phrase id="menutext" value="rm pasien keluar"/>
+</menu>
+<menu id="106"><phrase id="menutext" value="rm pegawai"/>
+</menu>
+<menu id="107"><phrase id="menutext" value="rm pekerjaan"/>
+</menu>
+<menu id="108"><phrase id="menutext" value="rm pelaku tindakan"/>
+</menu>
+<menu id="109"><phrase id="menutext" value="rm pembayaran faktur"/>
+</menu>
+<menu id="110"><phrase id="menutext" value="rm pembayaran obat"/>
+</menu>
+<menu id="111"><phrase id="menutext" value="rm pembayaran tagihan"/>
+</menu>
+<menu id="112"><phrase id="menutext" value="rm pembelian obat"/>
+</menu>
+<menu id="113"><phrase id="menutext" value="rm pemeriksaan lab"/>
+</menu>
+<menu id="114"><phrase id="menutext" value="rm penambahan stock"/>
+</menu>
+<menu id="115"><phrase id="menutext" value="rm pendaftaran"/>
+</menu>
+<menu id="116"><phrase id="menutext" value="rm pendidikan"/>
+</menu>
+<menu id="117"><phrase id="menutext" value="rm pengantar"/>
+</menu>
+<menu id="118"><phrase id="menutext" value="rm penggunaan kamar"/>
+</menu>
+<menu id="119"><phrase id="menutext" value="rm penggunaan kamar extra"/>
+</menu>
+<menu id="120"><phrase id="menutext" value="rm penjualan obat"/>
+</menu>
+<menu id="121"><phrase id="menutext" value="rm penyakit"/>
+</menu>
+<menu id="122"><phrase id="menutext" value="rm penyimpanan"/>
+</menu>
+<menu id="123"><phrase id="menutext" value="rm perawat"/>
+</menu>
+<menu id="124"><phrase id="menutext" value="rm peristiwa"/>
+</menu>
+<menu id="125"><phrase id="menutext" value="rm perujuk"/>
+</menu>
+<menu id="126"><phrase id="menutext" value="rm racikan"/>
+</menu>
+<menu id="127"><phrase id="menutext" value="rm radiologi"/>
+</menu>
+<menu id="128"><phrase id="menutext" value="rm retur penjualan obat"/>
+</menu>
+<menu id="129"><phrase id="menutext" value="rm rpd"/>
+</menu>
+<menu id="130"><phrase id="menutext" value="rm ruang"/>
+</menu>
+<menu id="131"><phrase id="menutext" value="rm ruang pendaftaran"/>
+</menu>
+<menu id="132"><phrase id="menutext" value="rm rujukan"/>
+</menu>
+<menu id="133"><phrase id="menutext" value="rm sebab mati"/>
+</menu>
+<menu id="134"><phrase id="menutext" value="rm setoran kasir"/>
+</menu>
+<menu id="135"><phrase id="menutext" value="rm shift"/>
+</menu>
+<menu id="136"><phrase id="menutext" value="rm stock barang"/>
+</menu>
+<menu id="137"><phrase id="menutext" value="rm stock obat"/>
+</menu>
+<menu id="138"><phrase id="menutext" value="rm stock obat apotik"/>
+</menu>
+<menu id="139"><phrase id="menutext" value="rm stock obat ruang"/>
+</menu>
+<menu id="140"><phrase id="menutext" value="rm summary"/>
+</menu>
+<menu id="141"><phrase id="menutext" value="rm supplier"/>
+</menu>
+<menu id="142"><phrase id="menutext" value="rm tagihan asuransi"/>
+</menu>
+<menu id="143"><phrase id="menutext" value="rm tarif kamar"/>
+</menu>
+<menu id="144"><phrase id="menutext" value="rm tarif laboratorium"/>
+</menu>
+<menu id="145"><phrase id="menutext" value="rm tarif obat"/>
+</menu>
+<menu id="146"><phrase id="menutext" value="rm tarif radiologi"/>
+</menu>
+<menu id="147"><phrase id="menutext" value="rm tarif tindakan"/>
+</menu>
+<menu id="148"><phrase id="menutext" value="rm tarif visit"/>
+</menu>
+<menu id="149"><phrase id="menutext" value="rm tindakan"/>
+</menu>
+<menu id="150"><phrase id="menutext" value="rm tindakan ruang"/>
+</menu>
+<menu id="151"><phrase id="menutext" value="rm tindakan ruang medis"/>
+</menu>
+<menu id="152"><phrase id="menutext" value="rm tipe asuransi"/>
+</menu>
+<menu id="153"><phrase id="menutext" value="rm tipe balance"/>
+</menu>
+<menu id="154"><phrase id="menutext" value="rm tipe jasa"/>
+</menu>
+<menu id="155"><phrase id="menutext" value="rm tipe pasien"/>
+</menu>
+<menu id="156"><phrase id="menutext" value="rm tipe pendaftaran"/>
+</menu>
+<menu id="157"><phrase id="menutext" value="rm tipe ruang"/>
+</menu>
+<menu id="158"><phrase id="menutext" value="rm tipe tarif"/>
+</menu>
+<menu id="159"><phrase id="menutext" value="rm title"/>
+</menu>
+<menu id="160"><phrase id="menutext" value="rm transportasi"/>
+</menu>
+<menu id="161"><phrase id="menutext" value="rm triage"/>
+</menu>
+<menu id="162"><phrase id="menutext" value="rm unit pelayanan"/>
+</menu>
+<menu id="163"><phrase id="menutext" value="rm visit"/>
+</menu>
+<menu id="164"><phrase id="menutext" value="tindakan"/>
+</menu>
+<menu id="165"><phrase id="menutext" value="Laporan Penjualan per Pasien"/>
+</menu>
+<menu id="166"><phrase id="menutext" value="penjualanperobat"/>
+</menu>
+<menu id="167"><phrase id="menutext" value="Laporan Penjualan Per Obat"/>
+</menu>
+<menu id="168"><phrase id="menutext" value="penjualanperfaktur"/>
+</menu>
+<menu id="169"><phrase id="menutext" value="Penjualan Per Faktur"/>
+</menu>
+<menu id="171"><phrase id="menutext" value="penjualanperpasienobat"/>
+</menu>
+<menu id="172"><phrase id="menutext" value="Laporan Penjualan Obar/ Pasien"/>
+</menu>
+<menu id="173"><phrase id="menutext" value="Laporan per Tanggal"/>
+</menu>
+<menu id="174"><phrase id="menutext" value="Laporan Dokter per Obat"/>
+</menu>
+<menu id="175"><phrase id="menutext" value="Laporan Obat per Dokter"/>
+</menu>
+<menu id="176"><phrase id="menutext" value="Hasil Lab"/>
+</menu>
+<menu id="177"><phrase id="menutext" value="Laporan Distribusi Obat"/>
+</menu>
+<menu id="179"><phrase id="menutext" value="faktur"/>
+</menu>
+<menu id="180"><phrase id="menutext" value="ibskelas"/>
+</menu>
+<menu id="181"><phrase id="menutext" value="kelas kamar"/>
+</menu>
+<menu id="182"><phrase id="menutext" value="menu medis"/>
+</menu>
+<menu id="183"><phrase id="menutext" value="menu pegawai"/>
+</menu>
+<menu id="184"><phrase id="menutext" value="racikan"/>
+</menu>
+<menu id="185"><phrase id="menutext" value="retur"/>
+</menu>
+<menu id="186"><phrase id="menutext" value="tarif kamar"/>
+</menu>
+<menu id="187"><phrase id="menutext" value="utilitaskelas"/>
+</menu>
+<menu id="188"><phrase id="menutext" value="visitkelas"/>
+</menu>
+<menu id="189"><phrase id="menutext" value="bahanradiologi"/>
+</menu>
+<menu id="190"><phrase id="menutext" value="kunjunganlab"/>
+</menu>
+<menu id="191"><phrase id="menutext" value="lab hasil group"/>
+</menu>
+<menu id="192"><phrase id="menutext" value="pendapatanlabperpasien"/>
+</menu>
+<menu id="193"><phrase id="menutext" value="rm pasien copy"/>
+</menu>
+<menu id="194"><phrase id="menutext" value="Laporan Pendapatan Lab"/>
+</menu>
+<menu id="195"><phrase id="menutext" value="Laporan Kunjungan Lab"/>
+</menu>
+<menu id="196"><phrase id="menutext" value="kunjunganpasien"/>
+</menu>
+<menu id="197"><phrase id="menutext" value="Laporan Kunjungan Pasien"/>
+</menu>
+<menu id="198"><phrase id="menutext" value="pendapatankarcis"/>
+</menu>
+<menu id="199"><phrase id="menutext" value="Laporan Karcis"/>
+</menu>
+<menu id="200"><phrase id="menutext" value="rm auto out"/>
+</menu>
+<menu id="201"><phrase id="menutext" value="rm retur"/>
+</menu>
+<menu id="202"><phrase id="menutext" value="rm tarif laboratorium "/>
+</menu>
+<menu id="203"><phrase id="menutext" value="Laporan Bahan Radiologi"/>
+</menu>
+<table id="master_radiologi"><phrase id="tblcaption" value="master radiologi"/>
+<field id="id_radiologi"><phrase id="fldcaption" value="id radiologi"/>
+</field>
+<field id="id_kelompok_radiologi"><phrase id="fldcaption" value="id kelompok radiologi"/>
+</field>
+<field id="id_kelompok_layanan"><phrase id="fldcaption" value="id kelompok layanan"/>
+</field>
+<field id="radiologi"><phrase id="fldcaption" value="radiologi"/>
+</field>
+<field id="kelas1"><phrase id="fldcaption" value="kelas 1"/>
+</field>
+<field id="kelas2"><phrase id="fldcaption" value="kelas 2"/>
+</field>
+<field id="kelas3"><phrase id="fldcaption" value="kelas 3"/>
+</field>
+<field id="vip"><phrase id="fldcaption" value="vip"/>
+</field>
+<field id="jps"><phrase id="fldcaption" value="jps"/>
+</field>
+<field id="kesda"><phrase id="fldcaption" value="kesda"/>
+</field>
+<field id="cito_bed"><phrase id="fldcaption" value="cito bed"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="master_tindakan"><phrase id="tblcaption" value="master tindakan"/>
+<field id="id_tindakan"><phrase id="fldcaption" value="id tindakan"/>
+</field>
+<field id="id_jenis_tindakan"><phrase id="fldcaption" value="id jenis tindakan"/>
+</field>
+<field id="id_kelompok_layanan"><phrase id="fldcaption" value="id kelompok layanan"/>
+</field>
+<field id="tindakan"><phrase id="fldcaption" value="tindakan"/>
+</field>
+<field id="icd"><phrase id="fldcaption" value="icd"/>
+</field>
+<field id="kelas1"><phrase id="fldcaption" value="kelas 1"/>
+</field>
+<field id="kelas2"><phrase id="fldcaption" value="kelas 2"/>
+</field>
+<field id="kelas3"><phrase id="fldcaption" value="kelas 3"/>
+</field>
+<field id="vip"><phrase id="fldcaption" value="vip"/>
+</field>
+<field id="jps"><phrase id="fldcaption" value="jps"/>
+</field>
+<field id="iccu"><phrase id="fldcaption" value="iccu"/>
+</field>
+<field id="iccujps"><phrase id="fldcaption" value="iccujps"/>
+</field>
+<field id="igd"><phrase id="fldcaption" value="igd"/>
+</field>
+<field id="neo"><phrase id="fldcaption" value="neo"/>
+</field>
+<field id="neojps"><phrase id="fldcaption" value="neojps"/>
+</field>
+<field id="eks"><phrase id="fldcaption" value="eks"/>
+</field>
+<field id="eksaskes"><phrase id="fldcaption" value="eksaskes"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_agama"><phrase id="tblcaption" value="rm agama"/>
+<field id="id_agama"><phrase id="fldcaption" value="id agama"/>
+</field>
+<field id="agama"><phrase id="fldcaption" value="agama"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_alergi"><phrase id="tblcaption" value="rm alergi"/>
+<field id="id_alergi"><phrase id="fldcaption" value="id alergi"/>
+</field>
+<field id="alergi"><phrase id="fldcaption" value="alergi"/>
+</field>
+</table>
+<table id="rm_antrian"><phrase id="tblcaption" value="rm antrian"/>
+<field id="id_antrian"><phrase id="fldcaption" value="id antrian"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="no_antrian"><phrase id="fldcaption" value="no antrian"/>
+</field>
+<field id="tgl_antrian"><phrase id="fldcaption" value="tgl antrian"/>
+</field>
+<field id="status_antrian"><phrase id="fldcaption" value="status antrian"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_asal_pendaftaran"><phrase id="tblcaption" value="rm asal pendaftaran"/>
+<field id="id_asal_pendaftaran"><phrase id="fldcaption" value="id asal pendaftaran"/>
+</field>
+<field id="asal_pendaftaran"><phrase id="fldcaption" value="asal pendaftaran"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_asal_rujukan"><phrase id="tblcaption" value="rm asal rujukan"/>
+<field id="id_asal_rujukan"><phrase id="fldcaption" value="id asal rujukan"/>
+</field>
+<field id="asal_rujukan"><phrase id="fldcaption" value="asal rujukan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_bagian"><phrase id="tblcaption" value="rm bagian"/>
+<field id="id_bagian"><phrase id="fldcaption" value="id bagian"/>
+</field>
+<field id="bagian"><phrase id="fldcaption" value="bagian"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_bahan_radiologi"><phrase id="tblcaption" value="rm bahan radiologi"/>
+<field id="id_bahan_radiologi"><phrase id="fldcaption" value="id bahan radiologi"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_detail_radiologi"><phrase id="fldcaption" value="id detail radiologi"/>
+</field>
+<field id="id_film"><phrase id="fldcaption" value="id film"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="jumlah"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_barang"><phrase id="tblcaption" value="rm barang"/>
+<field id="id_barang"><phrase id="fldcaption" value="id barang"/>
+</field>
+<field id="id_jenis_barang"><phrase id="fldcaption" value="id jenis barang"/>
+</field>
+<field id="barang"><phrase id="fldcaption" value="barang"/>
+</field>
+<field id="satuan"><phrase id="fldcaption" value="satuan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_barang_tindakan"><phrase id="tblcaption" value="rm barang tindakan"/>
+<field id="id_barang_tindakan"><phrase id="fldcaption" value="id barang tindakan"/>
+</field>
+<field id="id_barang"><phrase id="fldcaption" value="id barang"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="tgl_pemakaian"><phrase id="fldcaption" value="tgl pemakaian"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="jumlah"/>
+</field>
+<field id="id_keperluan"><phrase id="fldcaption" value="id keperluan"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_biaya_pendaftaran"><phrase id="tblcaption" value="rm biaya pendaftaran"/>
+<field id="id_biaya_pendaftaran"><phrase id="fldcaption" value="id biaya pendaftaran"/>
+</field>
+<field id="id_tipe_pendaftaran"><phrase id="fldcaption" value="id tipe pendaftaran"/>
+</field>
+<field id="biaya"><phrase id="fldcaption" value="biaya"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_cara_keluar"><phrase id="tblcaption" value="rm cara keluar"/>
+<field id="id_cara_keluar"><phrase id="fldcaption" value="id cara keluar"/>
+</field>
+<field id="cara_keluar"><phrase id="fldcaption" value="cara keluar"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_det_identitas"><phrase id="tblcaption" value="rm det identitas"/>
+<field id="id_det_identitas"><phrase id="fldcaption" value="id det identitas"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_jenis_identitas"><phrase id="fldcaption" value="id jenis identitas"/>
+</field>
+<field id="no_identitas"><phrase id="fldcaption" value="no identitas"/>
+</field>
+<field id="masa_berlaku"><phrase id="fldcaption" value="masa berlaku"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_det_identitas_dokter"><phrase id="tblcaption" value="rm det identitas dokter"/>
+<field id="id_det_identitas"><phrase id="fldcaption" value="id det identitas"/>
+</field>
+<field id="id_jenis_identitas"><phrase id="fldcaption" value="id jenis identitas"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="no_identitas"><phrase id="fldcaption" value="no identitas"/>
+</field>
+<field id="masa_berlaku"><phrase id="fldcaption" value="masa berlaku"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_det_identitas_pegawai"><phrase id="tblcaption" value="rm det identitas pegawai"/>
+<field id="id_det_identitas"><phrase id="fldcaption" value="id det identitas"/>
+</field>
+<field id="id_jenis_identitas"><phrase id="fldcaption" value="id jenis identitas"/>
+</field>
+<field id="id_pegawai"><phrase id="fldcaption" value="id pegawai"/>
+</field>
+<field id="no_identitas"><phrase id="fldcaption" value="no identitas"/>
+</field>
+<field id="masa_berlaku"><phrase id="fldcaption" value="masa berlaku"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_det_identitas_perawat"><phrase id="tblcaption" value="rm det identitas perawat"/>
+<field id="id_det_identitas"><phrase id="fldcaption" value="id det identitas"/>
+</field>
+<field id="id_jenis_identitas"><phrase id="fldcaption" value="id jenis identitas"/>
+</field>
+<field id="id_perawat"><phrase id="fldcaption" value="id perawat"/>
+</field>
+<field id="no_identitas"><phrase id="fldcaption" value="no identitas"/>
+</field>
+<field id="masa_berlaku"><phrase id="fldcaption" value="masa berlaku"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_det_keperawatan"><phrase id="tblcaption" value="rm det keperawatan"/>
+<field id="id_det_keperawatan"><phrase id="fldcaption" value="id det keperawatan"/>
+</field>
+<field id="id_perawat"><phrase id="fldcaption" value="id perawat"/>
+</field>
+<field id="id_keperawatan"><phrase id="fldcaption" value="id keperawatan"/>
+</field>
+<field id="tgl_berlaku"><phrase id="fldcaption" value="tgl berlaku"/>
+</field>
+<field id="tgl_berakhir"><phrase id="fldcaption" value="tgl berakhir"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_detail_diagnosa"><phrase id="tblcaption" value="rm detail diagnosa"/>
+<field id="id_detail_diagnosa"><phrase id="fldcaption" value="id detail diagnosa"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="tgl_diagnosa"><phrase id="fldcaption" value="tgl diagnosa"/>
+</field>
+<field id="diagnosa"><phrase id="fldcaption" value="diagnosa"/>
+</field>
+<field id="keluhan"><phrase id="fldcaption" value="keluhan"/>
+</field>
+<field id="hasil_pemeriksaan"><phrase id="fldcaption" value="hasil pemeriksaan"/>
+</field>
+<field id="terapi"><phrase id="fldcaption" value="terapi"/>
+</field>
+<field id="nadi"><phrase id="fldcaption" value="nadi"/>
+</field>
+<field id="tensi"><phrase id="fldcaption" value="tensi"/>
+</field>
+<field id="temp"><phrase id="fldcaption" value="temp"/>
+</field>
+<field id="nafas"><phrase id="fldcaption" value="nafas"/>
+</field>
+<field id="berat_badan"><phrase id="fldcaption" value="berat badan"/>
+</field>
+<field id="tinggi_badan"><phrase id="fldcaption" value="tinggi badan"/>
+</field>
+<field id="konsul"><phrase id="fldcaption" value="konsul"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_detail_diet"><phrase id="tblcaption" value="rm detail diet"/>
+<field id="id_detail_diet"><phrase id="fldcaption" value="id detail diet"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_detail_kamar"><phrase id="fldcaption" value="id detail kamar"/>
+</field>
+<field id="id_diet"><phrase id="fldcaption" value="id diet"/>
+</field>
+<field id="id_jenis_diet"><phrase id="fldcaption" value="id jenis diet"/>
+</field>
+<field id="tgl_diet"><phrase id="fldcaption" value="tgl diet"/>
+</field>
+<field id="waktu_diet"><phrase id="fldcaption" value="waktu diet"/>
+</field>
+<field id="keterangan"><phrase id="fldcaption" value="keterangan"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_detail_kamar"><phrase id="tblcaption" value="rm detail kamar"/>
+<field id="id_detail_kamar"><phrase id="fldcaption" value="id detail kamar"/>
+</field>
+<field id="id_kamar"><phrase id="fldcaption" value="id kamar"/>
+</field>
+<field id="bed"><phrase id="fldcaption" value="bed"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_detail_laboratorium"><phrase id="tblcaption" value="rm detail laboratorium"/>
+<field id="id_detail_laboratorium"><phrase id="fldcaption" value="id detail laboratorium"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_kelompok_lab"><phrase id="fldcaption" value="id kelompok lab"/>
+</field>
+<field id="id_laboratorium"><phrase id="fldcaption" value="id laboratorium"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="cito"><phrase id="fldcaption" value="cito"/>
+</field>
+<field id="hasil"><phrase id="fldcaption" value="hasil"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="tgl_pemeriksaan"><phrase id="fldcaption" value="tgl pemeriksaan"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="jml"><phrase id="fldcaption" value="jml"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+</table>
+<table id="rm_detail_menu"><phrase id="tblcaption" value="rm detail menu"/>
+<field id="id_detail_menu"><phrase id="fldcaption" value="id detail menu"/>
+</field>
+<field id="id_jabatan"><phrase id="fldcaption" value="id jabatan"/>
+</field>
+<field id="id_menu"><phrase id="fldcaption" value="id menu"/>
+</field>
+<field id="jenis_login"><phrase id="fldcaption" value="jenis login"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="urut"><phrase id="fldcaption" value="urut"/>
+</field>
+</table>
+<table id="rm_detail_racikan"><phrase id="tblcaption" value="rm detail racikan"/>
+<field id="id_detail_racikan"><phrase id="fldcaption" value="id detail racikan"/>
+</field>
+<field id="id_racikan"><phrase id="fldcaption" value="id racikan"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="harga"/>
+</field>
+<field id="r_code"><phrase id="fldcaption" value="r code"/>
+</field>
+<field id="ppn"><phrase id="fldcaption" value="ppn"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="jml"><phrase id="fldcaption" value="jml"/>
+</field>
+</table>
+<table id="rm_detail_radiologi"><phrase id="tblcaption" value="rm detail radiologi"/>
+<field id="id_detail_radiologi"><phrase id="fldcaption" value="id detail radiologi"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_radiologi"><phrase id="fldcaption" value="id radiologi"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="cito"><phrase id="fldcaption" value="cito"/>
+</field>
+<field id="cito_bed"><phrase id="fldcaption" value="cito bed"/>
+</field>
+<field id="keterangan"><phrase id="fldcaption" value="keterangan"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="tgl_pemeriksaan"><phrase id="fldcaption" value="tgl pemeriksaan"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="jml"><phrase id="fldcaption" value="jml"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+</table>
+<table id="rm_detail_tindakan"><phrase id="tblcaption" value="rm detail tindakan"/>
+<field id="id_detail_tindakan"><phrase id="fldcaption" value="id detail tindakan"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_tindakan"><phrase id="fldcaption" value="id tindakan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_diagnosa"><phrase id="tblcaption" value="rm diagnosa"/>
+<field id="id_diagnosa"><phrase id="fldcaption" value="id diagnosa"/>
+</field>
+<field id="tgl_diagnosa"><phrase id="fldcaption" value="tgl diagnosa"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_pegawai"><phrase id="fldcaption" value="id pegawai"/>
+</field>
+<field id="gejala"><phrase id="fldcaption" value="gejala"/>
+</field>
+<field id="penyakit_primer"><phrase id="fldcaption" value="penyakit primer"/>
+</field>
+<field id="penyakit_sekunder"><phrase id="fldcaption" value="penyakit sekunder"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_diet"><phrase id="tblcaption" value="rm diet"/>
+<field id="id_diet"><phrase id="fldcaption" value="id diet"/>
+</field>
+<field id="diet"><phrase id="fldcaption" value="diet"/>
+</field>
+<field id="report"><phrase id="fldcaption" value="report"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_diskon_obat"><phrase id="tblcaption" value="rm diskon obat"/>
+<field id="id_diskon_obat"><phrase id="fldcaption" value="id diskon obat"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_faktur"><phrase id="fldcaption" value="id faktur"/>
+</field>
+<field id="pemberi_diskon"><phrase id="fldcaption" value="pemberi diskon"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="diskon"/>
+</field>
+<field id="tgl_create"><phrase id="fldcaption" value="tgl create"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_diskon_tindakan"><phrase id="tblcaption" value="rm diskon tindakan"/>
+<field id="id_diskon_tindakan"><phrase id="fldcaption" value="id diskon tindakan"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_tindakan_ruang"><phrase id="fldcaption" value="id tindakan ruang"/>
+</field>
+<field id="pemberi_diskon"><phrase id="fldcaption" value="pemberi diskon"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="diskon"/>
+</field>
+<field id="tgl_create"><phrase id="fldcaption" value="tgl create"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_distribusi_barang"><phrase id="tblcaption" value="rm distribusi barang"/>
+<field id="id_distribusi_barang"><phrase id="fldcaption" value="id distribusi barang"/>
+</field>
+<field id="id_barang"><phrase id="fldcaption" value="id barang"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="jumlah_stock"><phrase id="fldcaption" value="jumlah stock"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="date_update"><phrase id="fldcaption" value="date update"/>
+</field>
+</table>
+<table id="rm_distribusi_obat"><phrase id="tblcaption" value="rm distribusi obat"/>
+<field id="id_distribusi_obat"><phrase id="fldcaption" value="id distribusi obat"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="stock"><phrase id="fldcaption" value="stock"/>
+</field>
+<field id="tgl_kadaluarsa"><phrase id="fldcaption" value="tgl kadaluarsa"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="date_update"><phrase id="fldcaption" value="date update"/>
+</field>
+</table>
+<table id="rm_dokter"><phrase id="tblcaption" value="rm dokter"/>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_jenis_dokter"><phrase id="fldcaption" value="id jenis dokter"/>
+</field>
+<field id="nama_dokter"><phrase id="fldcaption" value="nama dokter"/>
+</field>
+<field id="nama_dokter2"><phrase id="fldcaption" value="nama dokter 2"/>
+</field>
+<field id="usr_name"><phrase id="fldcaption" value="usr name"/>
+</field>
+<field id="usr_pass"><phrase id="fldcaption" value="usr pass"/>
+</field>
+<field id="nip"><phrase id="fldcaption" value="nip"/>
+</field>
+<field id="id_golongan"><phrase id="fldcaption" value="id golongan"/>
+</field>
+<field id="id_title"><phrase id="fldcaption" value="id title"/>
+</field>
+<field id="id_agama"><phrase id="fldcaption" value="id agama"/>
+</field>
+<field id="id_kota"><phrase id="fldcaption" value="id kota"/>
+</field>
+<field id="id_kecamatan"><phrase id="fldcaption" value="id kecamatan"/>
+</field>
+<field id="id_kelurahan"><phrase id="fldcaption" value="id kelurahan"/>
+</field>
+<field id="id_kelamin"><phrase id="fldcaption" value="id kelamin"/>
+</field>
+<field id="id_marital"><phrase id="fldcaption" value="id marital"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="tmp_lahir"><phrase id="fldcaption" value="tmp lahir"/>
+</field>
+<field id="tgl_lahir"><phrase id="fldcaption" value="tgl lahir"/>
+</field>
+<field id="no_tlp"><phrase id="fldcaption" value="no tlp"/>
+</field>
+<field id="no_hp"><phrase id="fldcaption" value="no hp"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_dokter_ruang"><phrase id="tblcaption" value="rm dokter ruang"/>
+<field id="id_dokter_ruang"><phrase id="fldcaption" value="id dokter ruang"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="default"><phrase id="fldcaption" value="default"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_dokter_tamu"><phrase id="tblcaption" value="rm dokter tamu"/>
+<field id="id_dokter_tamu"><phrase id="fldcaption" value="id dokter tamu"/>
+</field>
+<field id="nama_dokter"><phrase id="fldcaption" value="nama dokter"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_dr_jb"><phrase id="tblcaption" value="rm dr jb"/>
+<field id="id_dr_jb"><phrase id="fldcaption" value="id dr jb"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_emergency"><phrase id="tblcaption" value="rm emergency"/>
+<field id="id_emergency"><phrase id="fldcaption" value="id emergency"/>
+</field>
+<field id="emergency"><phrase id="fldcaption" value="Emergency"/>
+</field>
+</table>
+<table id="rm_faktur"><phrase id="tblcaption" value="rm faktur"/>
+<field id="id_faktur"><phrase id="fldcaption" value="id faktur"/>
+</field>
+<field id="no_faktur"><phrase id="fldcaption" value="no faktur"/>
+</field>
+<field id="id_supplier"><phrase id="fldcaption" value="id supplier"/>
+</field>
+<field id="tgl_pembelian"><phrase id="fldcaption" value="tgl pembelian"/>
+</field>
+<field id="tgl_jatuh_tempo"><phrase id="fldcaption" value="tgl jatuh tempo"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="status_assign"><phrase id="fldcaption" value="status assign"/>
+</field>
+<field id="date_entry"><phrase id="fldcaption" value="date entry"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_faktur_penjualan"><phrase id="tblcaption" value="rm faktur penjualan"/>
+<field id="id_faktur_penjualan"><phrase id="fldcaption" value="id faktur penjualan"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="jns_customer"><phrase id="fldcaption" value="jns customer"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="no_resep"><phrase id="fldcaption" value="no resep"/>
+</field>
+<field id="tgl_penjualan"><phrase id="fldcaption" value="tgl penjualan"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="nama pasien"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_ruang_px"><phrase id="fldcaption" value="id ruang px"/>
+</field>
+<field id="shift"><phrase id="fldcaption" value="shift"/>
+</field>
+</table>
+<table id="rm_fasilitas_ruang"><phrase id="tblcaption" value="rm fasilitas ruang"/>
+<field id="id_fasilitas_ruang"><phrase id="fldcaption" value="id fasilitas ruang"/>
+</field>
+<field id="id_pelaku_tindakan"><phrase id="fldcaption" value="id pelaku tindakan"/>
+</field>
+<field id="id_detail_tindakan"><phrase id="fldcaption" value="id detail tindakan"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_tarif_tindakan"><phrase id="fldcaption" value="id tarif tindakan"/>
+</field>
+<field id="advice"><phrase id="fldcaption" value="advice"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="jumlah"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="tgl_tindakan"><phrase id="fldcaption" value="tgl tindakan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_film"><phrase id="tblcaption" value="rm film"/>
+<field id="id_film"><phrase id="fldcaption" value="id film"/>
+</field>
+<field id="film"><phrase id="fldcaption" value="film"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_gol_darah"><phrase id="tblcaption" value="rm gol darah"/>
+<field id="id_gol_darah"><phrase id="fldcaption" value="id gol darah"/>
+</field>
+<field id="gol_darah"><phrase id="fldcaption" value="gol darah"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_golongan"><phrase id="tblcaption" value="rm golongan"/>
+<field id="id_golongan"><phrase id="fldcaption" value="id golongan"/>
+</field>
+<field id="golongan"><phrase id="fldcaption" value="golongan"/>
+</field>
+<field id="pajak"><phrase id="fldcaption" value="pajak"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_hasil_laboratorium"><phrase id="tblcaption" value="rm hasil laboratorium"/>
+<field id="id_hasil_laboratorium"><phrase id="fldcaption" value="id hasil laboratorium"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="hasil_laboratorium"><phrase id="fldcaption" value="hasil laboratorium"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_igd_survey"><phrase id="tblcaption" value="rm igd survey"/>
+<field id="id_igd_survey"><phrase id="fldcaption" value="id igd survey"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_tipe_asuransi"><phrase id="fldcaption" value="id tipe asuransi"/>
+</field>
+<field id="id_level"><phrase id="fldcaption" value="id level"/>
+</field>
+<field id="pekerjaan"><phrase id="fldcaption" value="pekerjaan"/>
+</field>
+<field id="triage"><phrase id="fldcaption" value="triage"/>
+</field>
+<field id="transportasi"><phrase id="fldcaption" value="transportasi"/>
+</field>
+<field id="jenis_transportasi"><phrase id="fldcaption" value="jenis transportasi"/>
+</field>
+<field id="pengantar"><phrase id="fldcaption" value="pengantar"/>
+</field>
+<field id="inform"><phrase id="fldcaption" value="inform"/>
+</field>
+<field id="ic"><phrase id="fldcaption" value="ic"/>
+</field>
+<field id="kasus"><phrase id="fldcaption" value="kasus"/>
+</field>
+<field id="jenis_kasus"><phrase id="fldcaption" value="jenis kasus"/>
+</field>
+<field id="emergency"><phrase id="fldcaption" value="emergency"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="datang"><phrase id="fldcaption" value="datang"/>
+</field>
+<field id="periksa"><phrase id="fldcaption" value="periksa"/>
+</field>
+<field id="terapi"><phrase id="fldcaption" value="terapi"/>
+</field>
+<field id="tindak_lanjut"><phrase id="fldcaption" value="tindak lanjut"/>
+</field>
+<field id="waktu_tindak_lanjut"><phrase id="fldcaption" value="waktu tindak lanjut"/>
+</field>
+<field id="alergi"><phrase id="fldcaption" value="alergi"/>
+</field>
+<field id="medikasi"><phrase id="fldcaption" value="medikasi"/>
+</field>
+<field id="medikasi_teratur"><phrase id="fldcaption" value="medikasi teratur"/>
+</field>
+<field id="rpd"><phrase id="fldcaption" value="rpd"/>
+</field>
+<field id="amenorhae"><phrase id="fldcaption" value="amenorhae"/>
+</field>
+<field id="id_bagian"><phrase id="fldcaption" value="id bagian"/>
+</field>
+<field id="id_peristiwa"><phrase id="fldcaption" value="id peristiwa"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_inform"><phrase id="tblcaption" value="rm inform"/>
+<field id="id_inform"><phrase id="fldcaption" value="id inform"/>
+</field>
+<field id="inform"><phrase id="fldcaption" value="inform"/>
+</field>
+</table>
+<table id="rm_jabatan"><phrase id="tblcaption" value="rm jabatan"/>
+<field id="id_jabatan"><phrase id="fldcaption" value="id jabatan"/>
+</field>
+<field id="jabatan"><phrase id="fldcaption" value="jabatan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_dokter_tamu"><phrase id="tblcaption" value="rm jasa dokter tamu"/>
+<field id="id_jasa_dokter_tamu"><phrase id="fldcaption" value="id jasa dokter tamu"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="jasa"><phrase id="fldcaption" value="jasa"/>
+</field>
+<field id="alat"><phrase id="fldcaption" value="alat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_karcis"><phrase id="tblcaption" value="rm jasa karcis"/>
+<field id="id_jasa_karcis"><phrase id="fldcaption" value="id jasa karcis"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_pelayanan"><phrase id="fldcaption" value="jasa pelayanan"/>
+</field>
+<field id="unit_penghasil"><phrase id="fldcaption" value="unit penghasil"/>
+</field>
+<field id="direksi"><phrase id="fldcaption" value="direksi"/>
+</field>
+<field id="remunerasi"><phrase id="fldcaption" value="remunerasi"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="dokter"/>
+</field>
+<field id="perawat"><phrase id="fldcaption" value="perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_laboratorium"><phrase id="tblcaption" value="rm jasa laboratorium"/>
+<field id="id_jasa_laboratorium"><phrase id="fldcaption" value="id jasa laboratorium"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_pelayanan"><phrase id="fldcaption" value="jasa pelayanan"/>
+</field>
+<field id="unit_penghasil"><phrase id="fldcaption" value="unit penghasil"/>
+</field>
+<field id="direksi"><phrase id="fldcaption" value="direksi"/>
+</field>
+<field id="remunerasi"><phrase id="fldcaption" value="remunerasi"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="dokter"/>
+</field>
+<field id="perawat"><phrase id="fldcaption" value="perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_pemeriksaan_dokter"><phrase id="tblcaption" value="rm jasa pemeriksaan dokter"/>
+<field id="id_jasa_pemeriksaan_dokter"><phrase id="fldcaption" value="id jasa pemeriksaan dokter"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_layanan"><phrase id="fldcaption" value="jasa layanan"/>
+</field>
+<field id="jasa_unit_penghasil"><phrase id="fldcaption" value="jasa unit penghasil"/>
+</field>
+<field id="jasa_direksi"><phrase id="fldcaption" value="jasa direksi"/>
+</field>
+<field id="jasa_remunerasi"><phrase id="fldcaption" value="jasa remunerasi"/>
+</field>
+<field id="jasa_dokter"><phrase id="fldcaption" value="jasa dokter"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="jasa perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_pendaftaran"><phrase id="tblcaption" value="rm jasa pendaftaran"/>
+<field id="id_jasa_pendaftaran"><phrase id="fldcaption" value="id jasa pendaftaran"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_layanan"><phrase id="fldcaption" value="jasa layanan"/>
+</field>
+<field id="jasa_unit_penghasil"><phrase id="fldcaption" value="jasa unit penghasil"/>
+</field>
+<field id="jasa_direksi"><phrase id="fldcaption" value="jasa direksi"/>
+</field>
+<field id="jasa_remunerasi"><phrase id="fldcaption" value="jasa remunerasi"/>
+</field>
+<field id="jasa_dokter"><phrase id="fldcaption" value="jasa dokter"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="jasa perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_radiologi"><phrase id="tblcaption" value="rm jasa radiologi"/>
+<field id="id_jasa_radiologi"><phrase id="fldcaption" value="id jasa radiologi"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_pelayanan"><phrase id="fldcaption" value="jasa pelayanan"/>
+</field>
+<field id="unit_penghasil"><phrase id="fldcaption" value="unit penghasil"/>
+</field>
+<field id="direksi"><phrase id="fldcaption" value="direksi"/>
+</field>
+<field id="remunerasi"><phrase id="fldcaption" value="remunerasi"/>
+</field>
+<field id="id_kelompok_radiologi"><phrase id="fldcaption" value="id kelompok radiologi"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="dokter"/>
+</field>
+<field id="perawat"><phrase id="fldcaption" value="perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_tindakan"><phrase id="tblcaption" value="rm jasa tindakan"/>
+<field id="id_jasa_tindakan"><phrase id="fldcaption" value="id jasa tindakan"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_pelayanan"><phrase id="fldcaption" value="jasa pelayanan"/>
+</field>
+<field id="unit_penghasil"><phrase id="fldcaption" value="unit penghasil"/>
+</field>
+<field id="direksi"><phrase id="fldcaption" value="direksi"/>
+</field>
+<field id="remunerasi"><phrase id="fldcaption" value="remunerasi"/>
+</field>
+<field id="id_pelaku_tindakan"><phrase id="fldcaption" value="id pelaku tindakan"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="dokter"/>
+</field>
+<field id="perawat"><phrase id="fldcaption" value="perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_tindakan_bedah"><phrase id="tblcaption" value="rm jasa tindakan bedah"/>
+<field id="id_jasa_tindakan_bedah"><phrase id="fldcaption" value="id jasa tindakan bedah"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_tindakan_medis"><phrase id="fldcaption" value="id tindakan medis"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_pelayanan"><phrase id="fldcaption" value="jasa pelayanan"/>
+</field>
+<field id="unit_penghasil"><phrase id="fldcaption" value="unit penghasil"/>
+</field>
+<field id="direksi"><phrase id="fldcaption" value="direksi"/>
+</field>
+<field id="remunerasi"><phrase id="fldcaption" value="remunerasi"/>
+</field>
+<field id="operator"><phrase id="fldcaption" value="operator"/>
+</field>
+<field id="anastesi"><phrase id="fldcaption" value="anastesi"/>
+</field>
+<field id="tim_operator"><phrase id="fldcaption" value="tim operator"/>
+</field>
+<field id="ass_tim_operator"><phrase id="fldcaption" value="ass tim operator"/>
+</field>
+<field id="tim_anastesi"><phrase id="fldcaption" value="tim anastesi"/>
+</field>
+<field id="ass_tim_anastesi"><phrase id="fldcaption" value="ass tim anastesi"/>
+</field>
+<field id="tgl_entry"><phrase id="fldcaption" value="tgl entry"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_tindakan_ibs"><phrase id="tblcaption" value="rm jasa tindakan ibs"/>
+<field id="id_jasa_tindakan_ibs"><phrase id="fldcaption" value="id jasa tindakan ibs"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_pelayanan"><phrase id="fldcaption" value="jasa pelayanan"/>
+</field>
+<field id="unit_penghasil"><phrase id="fldcaption" value="unit penghasil"/>
+</field>
+<field id="direksi"><phrase id="fldcaption" value="direksi"/>
+</field>
+<field id="remunerasi"><phrase id="fldcaption" value="remunerasi"/>
+</field>
+<field id="operator"><phrase id="fldcaption" value="operator"/>
+</field>
+<field id="anastesi"><phrase id="fldcaption" value="anastesi"/>
+</field>
+<field id="tim_operator"><phrase id="fldcaption" value="tim operator"/>
+</field>
+<field id="ass_tim_operator"><phrase id="fldcaption" value="ass tim operator"/>
+</field>
+<field id="tim_anastesi"><phrase id="fldcaption" value="tim anastesi"/>
+</field>
+<field id="ass_tim_anastesi"><phrase id="fldcaption" value="ass tim anastesi"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_tindakan_laboratorium"><phrase id="tblcaption" value="rm jasa tindakan laboratorium"/>
+<field id="id_jasa_tindakan_laboratorium"><phrase id="fldcaption" value="id jasa tindakan laboratorium"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_laboratorium"><phrase id="fldcaption" value="id laboratorium"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_layanan"><phrase id="fldcaption" value="jasa layanan"/>
+</field>
+<field id="jasa_unit_penghasil"><phrase id="fldcaption" value="jasa unit penghasil"/>
+</field>
+<field id="jasa_direksi"><phrase id="fldcaption" value="jasa direksi"/>
+</field>
+<field id="jasa_remunerasi"><phrase id="fldcaption" value="jasa remunerasi"/>
+</field>
+<field id="jasa_dokter"><phrase id="fldcaption" value="jasa dokter"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="jasa perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_tindakan_poli"><phrase id="tblcaption" value="rm jasa tindakan poli"/>
+<field id="id_jasa_pendaftaran"><phrase id="fldcaption" value="id jasa pendaftaran"/>
+</field>
+<field id="id_tindakan_ruang"><phrase id="fldcaption" value="id tindakan ruang"/>
+</field>
+<field id="jns_tindakan"><phrase id="fldcaption" value="jns tindakan"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_detail_tindakan"><phrase id="fldcaption" value="id detail tindakan"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_pelaku_tindakan"><phrase id="fldcaption" value="id pelaku tindakan"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_layanan"><phrase id="fldcaption" value="jasa layanan"/>
+</field>
+<field id="jasa_unit_penghasil"><phrase id="fldcaption" value="jasa unit penghasil"/>
+</field>
+<field id="jasa_direksi"><phrase id="fldcaption" value="jasa direksi"/>
+</field>
+<field id="jasa_remunerasi"><phrase id="fldcaption" value="jasa remunerasi"/>
+</field>
+<field id="jasa_dokter"><phrase id="fldcaption" value="jasa dokter"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="jasa perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jasa_tindakan_radiologi"><phrase id="tblcaption" value="rm jasa tindakan radiologi"/>
+<field id="id_jasa_tindakan_radiologi"><phrase id="fldcaption" value="id jasa tindakan radiologi"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_radiologi"><phrase id="fldcaption" value="id radiologi"/>
+</field>
+<field id="id_kelompok_radiologi"><phrase id="fldcaption" value="id kelompok radiologi"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="jasa sarana"/>
+</field>
+<field id="jasa_layanan"><phrase id="fldcaption" value="jasa layanan"/>
+</field>
+<field id="jasa_unit_penghasil"><phrase id="fldcaption" value="jasa unit penghasil"/>
+</field>
+<field id="jasa_direksi"><phrase id="fldcaption" value="jasa direksi"/>
+</field>
+<field id="jasa_remunerasi"><phrase id="fldcaption" value="jasa remunerasi"/>
+</field>
+<field id="jasa_dokter"><phrase id="fldcaption" value="jasa dokter"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="jasa perawat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jenis_barang"><phrase id="tblcaption" value="rm jenis barang"/>
+<field id="id_jenis_barang"><phrase id="fldcaption" value="id jenis barang"/>
+</field>
+<field id="jenis_barang"><phrase id="fldcaption" value="jenis barang"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jenis_diet"><phrase id="tblcaption" value="rm jenis diet"/>
+<field id="id_jenis_diet"><phrase id="fldcaption" value="id jenis diet"/>
+</field>
+<field id="jenis_diet"><phrase id="fldcaption" value="jenis diet"/>
+</field>
+<field id="report"><phrase id="fldcaption" value="report"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jenis_dokter"><phrase id="tblcaption" value="rm jenis dokter"/>
+<field id="id_jenis_dokter"><phrase id="fldcaption" value="id jenis dokter"/>
+</field>
+<field id="jenis_dokter"><phrase id="fldcaption" value="jenis dokter"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jenis_identitas"><phrase id="tblcaption" value="rm jenis identitas"/>
+<field id="id_jenis_identitas"><phrase id="fldcaption" value="id jenis identitas"/>
+</field>
+<field id="jenis_identitas"><phrase id="fldcaption" value="jenis identitas"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jenis_tindakan"><phrase id="tblcaption" value="rm jenis tindakan"/>
+<field id="id_jenis_tindakan"><phrase id="fldcaption" value="id jenis tindakan"/>
+</field>
+<field id="jenis_tindakan"><phrase id="fldcaption" value="jenis tindakan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_jkasus"><phrase id="tblcaption" value="rm jkasus"/>
+<field id="id_jkasus"><phrase id="fldcaption" value="id jkasus"/>
+</field>
+<field id="jkasus"><phrase id="fldcaption" value="jkasus"/>
+</field>
+</table>
+<table id="rm_jtrans"><phrase id="tblcaption" value="rm jtrans"/>
+<field id="id_jtrans"><phrase id="fldcaption" value="id jtrans"/>
+</field>
+<field id="jenis"><phrase id="fldcaption" value="Jenis"/>
+</field>
+</table>
+<table id="rm_kamar"><phrase id="tblcaption" value="rm kamar"/>
+<field id="id_kamar"><phrase id="fldcaption" value="id kamar"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="kamar"><phrase id="fldcaption" value="kamar"/>
+</field>
+<field id="kapasitas"><phrase id="fldcaption" value="kapasitas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kasus"><phrase id="tblcaption" value="rm kasus"/>
+<field id="id_kasus"><phrase id="fldcaption" value="id kasus"/>
+</field>
+<field id="kasus"><phrase id="fldcaption" value="Kasus"/>
+</field>
+</table>
+<table id="rm_keadaan"><phrase id="tblcaption" value="rm keadaan"/>
+<field id="id_keadaan"><phrase id="fldcaption" value="id keadaan"/>
+</field>
+<field id="keadaan"><phrase id="fldcaption" value="keadaan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kecamatan"><phrase id="tblcaption" value="rm kecamatan"/>
+<field id="id_kecamatan"><phrase id="fldcaption" value="id kecamatan"/>
+</field>
+<field id="id_kota"><phrase id="fldcaption" value="id kota"/>
+</field>
+<field id="kecamatan"><phrase id="fldcaption" value="kecamatan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelamin"><phrase id="tblcaption" value="rm kelamin"/>
+<field id="id_kelamin"><phrase id="fldcaption" value="id kelamin"/>
+</field>
+<field id="kelamin"><phrase id="fldcaption" value="kelamin"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelas"><phrase id="tblcaption" value="rm kelas"/>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelas_kamar"><phrase id="tblcaption" value="rm kelas kamar"/>
+<field id="id_kelas_kamar"><phrase id="fldcaption" value="id kelas kamar"/>
+</field>
+<field id="id_kamar"><phrase id="fldcaption" value="id kamar"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelas_ruang"><phrase id="tblcaption" value="rm kelas ruang"/>
+<field id="id_kelas_ruang"><phrase id="fldcaption" value="id kelas ruang"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="init_daftar"><phrase id="fldcaption" value="init daftar"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelompok_lab"><phrase id="tblcaption" value="rm kelompok lab"/>
+<field id="id_kelompok_lab"><phrase id="fldcaption" value="id kelompok lab"/>
+</field>
+<field id="kelompok_lab"><phrase id="fldcaption" value="kelompok lab"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelompok_layanan"><phrase id="tblcaption" value="rm kelompok layanan"/>
+<field id="id_kelompok_layanan"><phrase id="fldcaption" value="id kelompok layanan"/>
+</field>
+<field id="kel_layanan"><phrase id="fldcaption" value="kel layanan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelompok_radiologi"><phrase id="tblcaption" value="rm kelompok radiologi"/>
+<field id="id_kelompok_radiologi"><phrase id="fldcaption" value="id kelompok radiologi"/>
+</field>
+<field id="kelompok_radiologi"><phrase id="fldcaption" value="kelompok radiologi"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kelurahan"><phrase id="tblcaption" value="rm kelurahan"/>
+<field id="id_kelurahan"><phrase id="fldcaption" value="id kelurahan"/>
+</field>
+<field id="id_kecamatan"><phrase id="fldcaption" value="id kecamatan"/>
+</field>
+<field id="kelurahan"><phrase id="fldcaption" value="kelurahan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_keperawatan"><phrase id="tblcaption" value="rm keperawatan"/>
+<field id="id_keperawatan"><phrase id="fldcaption" value="id keperawatan"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="nama_pegawai"><phrase id="fldcaption" value="nama pegawai"/>
+</field>
+<field id="usr_name"><phrase id="fldcaption" value="usr name"/>
+</field>
+<field id="usr_pass"><phrase id="fldcaption" value="usr pass"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_kota"><phrase id="tblcaption" value="rm kota"/>
+<field id="id_kota"><phrase id="fldcaption" value="id kota"/>
+</field>
+<field id="kota"><phrase id="fldcaption" value="kota"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_lab_darah"><phrase id="tblcaption" value="rm lab darah"/>
+<field id="id_lab_darah"><phrase id="fldcaption" value="id lab darah"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="eritrosit"><phrase id="fldcaption" value="eritrosit"/>
+</field>
+<field id="leukosit"><phrase id="fldcaption" value="leukosit"/>
+</field>
+<field id="trombosit"><phrase id="fldcaption" value="trombosit"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_laboratorium"><phrase id="tblcaption" value="rm laboratorium"/>
+<field id="id_laboratorium"><phrase id="fldcaption" value="id laboratorium"/>
+</field>
+<field id="id_kelompok_lab"><phrase id="fldcaption" value="id kelompok lab"/>
+</field>
+<field id="laboratorium"><phrase id="fldcaption" value="laboratorium"/>
+</field>
+<field id="metode"><phrase id="fldcaption" value="metode"/>
+</field>
+<field id="nilai_normal"><phrase id="fldcaption" value="nilai normal"/>
+</field>
+<field id="kelompok"><phrase id="fldcaption" value="kelompok"/>
+</field>
+<field id="cetak"><phrase id="fldcaption" value="cetak"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_laci"><phrase id="tblcaption" value="rm laci"/>
+<field id="id_laci"><phrase id="fldcaption" value="id laci"/>
+</field>
+<field id="laci"><phrase id="fldcaption" value="laci"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_lemari"><phrase id="tblcaption" value="rm lemari"/>
+<field id="id_lemari"><phrase id="fldcaption" value="id lemari"/>
+</field>
+<field id="lemari"><phrase id="fldcaption" value="lemari"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_log"><phrase id="tblcaption" value="rm log"/>
+<field id="id_log"><phrase id="fldcaption" value="id log"/>
+</field>
+<field id="tgl_log"><phrase id="fldcaption" value="tgl log"/>
+</field>
+<field id="ip_address"><phrase id="fldcaption" value="ip address"/>
+</field>
+<field id="nip"><phrase id="fldcaption" value="nip"/>
+</field>
+</table>
+<table id="rm_marital"><phrase id="tblcaption" value="rm marital"/>
+<field id="id_marital"><phrase id="fldcaption" value="id marital"/>
+</field>
+<field id="marital"><phrase id="fldcaption" value="marital"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_menu"><phrase id="tblcaption" value="rm menu"/>
+<field id="id_menu"><phrase id="fldcaption" value="id menu"/>
+</field>
+<field id="nama_menu"><phrase id="fldcaption" value="nama menu"/>
+</field>
+<field id="target"><phrase id="fldcaption" value="target"/>
+</field>
+<field id="urut"><phrase id="fldcaption" value="urut"/>
+</field>
+<field id="display"><phrase id="fldcaption" value="display"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_mutasi_pasien"><phrase id="tblcaption" value="rm mutasi pasien"/>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien_lama"><phrase id="fldcaption" value="id tipe pasien lama"/>
+</field>
+<field id="id_tipe_pasien_baru"><phrase id="fldcaption" value="id tipe pasien baru"/>
+</field>
+<field id="waktu"><phrase id="fldcaption" value="waktu"/>
+</field>
+</table>
+<table id="rm_obat"><phrase id="tblcaption" value="rm obat"/>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="kode obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="nama obat"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_obat_balance"><phrase id="tblcaption" value="rm obat balance"/>
+<field id="id_obat_balance"><phrase id="fldcaption" value="id obat balance"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="tgl_pemakaian"><phrase id="fldcaption" value="tgl pemakaian"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="jumlah"/>
+</field>
+<field id="id_keperluan"><phrase id="fldcaption" value="id keperluan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pasien"><phrase id="tblcaption" value="rm pasien"/>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_title"><phrase id="fldcaption" value="id title"/>
+</field>
+<field id="id_agama"><phrase id="fldcaption" value="id agama"/>
+</field>
+<field id="id_kota"><phrase id="fldcaption" value="id kota"/>
+</field>
+<field id="id_kecamatan"><phrase id="fldcaption" value="id kecamatan"/>
+</field>
+<field id="id_kelurahan"><phrase id="fldcaption" value="id kelurahan"/>
+</field>
+<field id="id_tipe_asuransi"><phrase id="fldcaption" value="id tipe asuransi"/>
+</field>
+<field id="id_kelamin"><phrase id="fldcaption" value="id kelamin"/>
+</field>
+<field id="id_marital"><phrase id="fldcaption" value="id marital"/>
+</field>
+<field id="id_pendidikan"><phrase id="fldcaption" value="id pendidikan"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_gol_darah"><phrase id="fldcaption" value="id gol darah"/>
+</field>
+<field id="prefix"><phrase id="fldcaption" value="prefix"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="nama pasien"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="no_tlp"><phrase id="fldcaption" value="no tlp"/>
+</field>
+<field id="no_hp"><phrase id="fldcaption" value="no hp"/>
+</field>
+<field id="tmp_lahir"><phrase id="fldcaption" value="tmp lahir"/>
+</field>
+<field id="tgl_lahir"><phrase id="fldcaption" value="tgl lahir"/>
+</field>
+<field id="suku"><phrase id="fldcaption" value="suku"/>
+</field>
+<field id="kebangsaan"><phrase id="fldcaption" value="kebangsaan"/>
+</field>
+<field id="tgl_tambah"><phrase id="fldcaption" value="tgl tambah"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pasien_keluar"><phrase id="tblcaption" value="rm pasien keluar"/>
+<field id="id_pasien_keluar"><phrase id="fldcaption" value="id pasien keluar"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_keadaan"><phrase id="fldcaption" value="id keadaan"/>
+</field>
+<field id="id_cara_keluar"><phrase id="fldcaption" value="id cara keluar"/>
+</field>
+<field id="keterangan"><phrase id="fldcaption" value="keterangan"/>
+</field>
+<field id="tgl_keluar"><phrase id="fldcaption" value="tgl keluar"/>
+</field>
+<field id="tgl_keluardb"><phrase id="fldcaption" value="tgl keluar DB"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pegawai"><phrase id="tblcaption" value="rm pegawai"/>
+<field id="id_pegawai"><phrase id="fldcaption" value="id pegawai"/>
+</field>
+<field id="nip"><phrase id="fldcaption" value="nip"/>
+</field>
+<field id="nama_pegawai"><phrase id="fldcaption" value="nama pegawai"/>
+</field>
+<field id="id_jabatan"><phrase id="fldcaption" value="id jabatan"/>
+</field>
+<field id="usr_name"><phrase id="fldcaption" value="usr name"/>
+</field>
+<field id="usr_pass"><phrase id="fldcaption" value="usr pass"/>
+</field>
+<field id="tmp_lahir"><phrase id="fldcaption" value="tmp lahir"/>
+</field>
+<field id="tgl_lahir"><phrase id="fldcaption" value="tgl lahir"/>
+</field>
+<field id="id_agama"><phrase id="fldcaption" value="id agama"/>
+</field>
+<field id="id_kecamatan"><phrase id="fldcaption" value="id kecamatan"/>
+</field>
+<field id="id_kelurahan"><phrase id="fldcaption" value="id kelurahan"/>
+</field>
+<field id="id_kelamin"><phrase id="fldcaption" value="id kelamin"/>
+</field>
+<field id="id_marital"><phrase id="fldcaption" value="id marital"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="id_kota"><phrase id="fldcaption" value="id kota"/>
+</field>
+<field id="no_tlp"><phrase id="fldcaption" value="no tlp"/>
+</field>
+<field id="no_hp"><phrase id="fldcaption" value="no hp"/>
+</field>
+<field id="id_title"><phrase id="fldcaption" value="id title"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pekerjaan"><phrase id="tblcaption" value="rm pekerjaan"/>
+<field id="id_pekerjaan"><phrase id="fldcaption" value="id pekerjaan"/>
+</field>
+<field id="pekerjaan"><phrase id="fldcaption" value="pekerjaan"/>
+</field>
+</table>
+<table id="rm_pelaku_tindakan"><phrase id="tblcaption" value="rm pelaku tindakan"/>
+<field id="id_pelaku_tindakan"><phrase id="fldcaption" value="id pelaku tindakan"/>
+</field>
+<field id="nama_pelaku"><phrase id="fldcaption" value="nama pelaku"/>
+</field>
+</table>
+<table id="rm_pembayaran_faktur"><phrase id="tblcaption" value="rm pembayaran faktur"/>
+<field id="id_pembayaran_faktur"><phrase id="fldcaption" value="id pembayaran faktur"/>
+</field>
+<field id="id_faktur"><phrase id="fldcaption" value="id faktur"/>
+</field>
+<field id="bayar_ke"><phrase id="fldcaption" value="bayar ke"/>
+</field>
+<field id="tgl_pembayaran"><phrase id="fldcaption" value="tgl pembayaran"/>
+</field>
+<field id="bayar"><phrase id="fldcaption" value="bayar"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pembayaran_obat"><phrase id="tblcaption" value="rm pembayaran obat"/>
+<field id="id_pembayaran_obat"><phrase id="fldcaption" value="id pembayaran obat"/>
+</field>
+<field id="id_faktur_penjualan"><phrase id="fldcaption" value="id faktur penjualan"/>
+</field>
+<field id="pembayaran_ke"><phrase id="fldcaption" value="pembayaran ke"/>
+</field>
+<field id="tipe_pembayaran"><phrase id="fldcaption" value="tipe pembayaran"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="total"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="diskon"/>
+</field>
+<field id="bayar"><phrase id="fldcaption" value="bayar"/>
+</field>
+<field id="asuransi"><phrase id="fldcaption" value="asuransi"/>
+</field>
+<field id="sisa"><phrase id="fldcaption" value="sisa"/>
+</field>
+<field id="tgl_pembayaran"><phrase id="fldcaption" value="tgl pembayaran"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="sum"><phrase id="fldcaption" value="sum"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="kembali"><phrase id="fldcaption" value="kembali"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pembayaran_tagihan"><phrase id="tblcaption" value="rm pembayaran tagihan"/>
+<field id="id_pembayaran_tagihan"><phrase id="fldcaption" value="id pembayaran tagihan"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="pembayaran_ke"><phrase id="fldcaption" value="pembayaran ke"/>
+</field>
+<field id="bayar"><phrase id="fldcaption" value="bayar"/>
+</field>
+<field id="tgl_pembayaran"><phrase id="fldcaption" value="tgl pembayaran"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pembelian_obat"><phrase id="tblcaption" value="rm pembelian obat"/>
+<field id="id_pembelian_obat"><phrase id="fldcaption" value="id pembelian obat"/>
+</field>
+<field id="id_faktur"><phrase id="fldcaption" value="id faktur"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="id_penyimpanan"><phrase id="fldcaption" value="id penyimpanan"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="harga"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="retur"><phrase id="fldcaption" value="retur"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="diskon"/>
+</field>
+<field id="pajak"><phrase id="fldcaption" value="pajak"/>
+</field>
+<field id="tgl_kadaluarsa"><phrase id="fldcaption" value="tgl kadaluarsa"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pemeriksaan_lab"><phrase id="tblcaption" value="rm pemeriksaan lab"/>
+<field id="id_pemeriksaan_lab"><phrase id="fldcaption" value="id pemeriksaan lab"/>
+</field>
+<field id="no_pemeriksaan"><phrase id="fldcaption" value="no pemeriksaan"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="ambil"><phrase id="fldcaption" value="ambil"/>
+</field>
+<field id="periksa"><phrase id="fldcaption" value="periksa"/>
+</field>
+<field id="selesai"><phrase id="fldcaption" value="selesai"/>
+</field>
+<field id="id_kelompok_lab"><phrase id="fldcaption" value="id kelompok lab"/>
+</field>
+<field id="cito"><phrase id="fldcaption" value="cito"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="status_cetak"><phrase id="fldcaption" value="status cetak"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_penambahan_stock"><phrase id="tblcaption" value="rm penambahan stock"/>
+<field id="id_penambahan_stock"><phrase id="fldcaption" value="id penambahan stock"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="date_update"><phrase id="fldcaption" value="date update"/>
+</field>
+</table>
+<table id="rm_pendaftaran"><phrase id="tblcaption" value="rm pendaftaran"/>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_ruang_asal"><phrase id="fldcaption" value="id ruang asal"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_tipe_pendaftaran"><phrase id="fldcaption" value="id tipe pendaftaran"/>
+</field>
+<field id="id_biaya_pendaftaran"><phrase id="fldcaption" value="id biaya pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_pegawai"><phrase id="fldcaption" value="id pegawai"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_asal_pendaftaran"><phrase id="fldcaption" value="id asal pendaftaran"/>
+</field>
+<field id="tgl_pendaftaran"><phrase id="fldcaption" value="tgl pendaftaran"/>
+</field>
+<field id="jadwal_daftar"><phrase id="fldcaption" value="jadwal daftar"/>
+</field>
+<field id="status_pendaftaran"><phrase id="fldcaption" value="status pendaftaran"/>
+</field>
+<field id="biaya_pendaftaran"><phrase id="fldcaption" value="biaya pendaftaran"/>
+</field>
+<field id="status_cetak"><phrase id="fldcaption" value="status cetak"/>
+</field>
+<field id="status_pembayaran"><phrase id="fldcaption" value="status pembayaran"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pendidikan"><phrase id="tblcaption" value="rm pendidikan"/>
+<field id="id_pendidikan"><phrase id="fldcaption" value="id pendidikan"/>
+</field>
+<field id="pendidikan"><phrase id="fldcaption" value="pendidikan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_pengantar"><phrase id="tblcaption" value="rm pengantar"/>
+<field id="id_pengantar"><phrase id="fldcaption" value="id pengantar"/>
+</field>
+<field id="pengantar"><phrase id="fldcaption" value="pengantar"/>
+</field>
+</table>
+<table id="rm_penggunaan_kamar"><phrase id="tblcaption" value="rm penggunaan kamar"/>
+<field id="id_penggunaan_kamar"><phrase id="fldcaption" value="id penggunaan kamar"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_ruang_asal"><phrase id="fldcaption" value="id ruang asal"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_detail_kamar"><phrase id="fldcaption" value="id detail kamar"/>
+</field>
+<field id="tgl_masuk"><phrase id="fldcaption" value="tgl masuk"/>
+</field>
+<field id="tgl_keluar"><phrase id="fldcaption" value="tgl keluar"/>
+</field>
+<field id="tgl_keluardb"><phrase id="fldcaption" value="tgl keluar DB"/>
+</field>
+<field id="keterangan_selesai"><phrase id="fldcaption" value="keterangan selesai"/>
+</field>
+<field id="lama_penggunaan"><phrase id="fldcaption" value="lama penggunaan"/>
+</field>
+<field id="lama_php"><phrase id="fldcaption" value="lama php"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="askep"><phrase id="fldcaption" value="askep"/>
+</field>
+</table>
+<table id="rm_penggunaan_kamar_extra"><phrase id="tblcaption" value="rm penggunaan kamar extra"/>
+<field id="id_penggunaan_kamar"><phrase id="fldcaption" value="id penggunaan kamar"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_ruang_asal"><phrase id="fldcaption" value="id ruang asal"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_detail_kamar"><phrase id="fldcaption" value="id detail kamar"/>
+</field>
+<field id="tgl_masuk"><phrase id="fldcaption" value="tgl masuk"/>
+</field>
+<field id="tgl_keluar"><phrase id="fldcaption" value="tgl keluar"/>
+</field>
+<field id="keterangan_selesai"><phrase id="fldcaption" value="keterangan selesai"/>
+</field>
+<field id="lama_penggunaan"><phrase id="fldcaption" value="lama penggunaan"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="status"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_penjualan_obat"><phrase id="tblcaption" value="rm penjualan obat"/>
+<field id="id_penjualan_obat"><phrase id="fldcaption" value="id penjualan obat"/>
+</field>
+<field id="id_faktur_penjualan"><phrase id="fldcaption" value="id faktur penjualan"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="qty"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="harga"/>
+</field>
+<field id="r_code"><phrase id="fldcaption" value="r code"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_penyakit"><phrase id="tblcaption" value="rm penyakit"/>
+<field id="id_penyakit"><phrase id="fldcaption" value="id penyakit"/>
+</field>
+<field id="nama_penyakit"><phrase id="fldcaption" value="nama penyakit"/>
+</field>
+<field id="no_dtd"><phrase id="fldcaption" value="no dtd"/>
+</field>
+<field id="icd"><phrase id="fldcaption" value="icd"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_penyimpanan"><phrase id="tblcaption" value="rm penyimpanan"/>
+<field id="id_penyimpanan"><phrase id="fldcaption" value="id penyimpanan"/>
+</field>
+<field id="id_lemari"><phrase id="fldcaption" value="id lemari"/>
+</field>
+<field id="id_laci"><phrase id="fldcaption" value="id laci"/>
+</field>
+<field id="penyimpanan"><phrase id="fldcaption" value="penyimpanan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_perawat"><phrase id="tblcaption" value="rm perawat"/>
+<field id="id_perawat"><phrase id="fldcaption" value="id perawat"/>
+</field>
+<field id="id_kecamatan"><phrase id="fldcaption" value="id kecamatan"/>
+</field>
+<field id="id_agama"><phrase id="fldcaption" value="id agama"/>
+</field>
+<field id="id_kelurahan"><phrase id="fldcaption" value="id kelurahan"/>
+</field>
+<field id="id_kelamin"><phrase id="fldcaption" value="id kelamin"/>
+</field>
+<field id="id_kota"><phrase id="fldcaption" value="id kota"/>
+</field>
+<field id="id_marital"><phrase id="fldcaption" value="id marital"/>
+</field>
+<field id="nip"><phrase id="fldcaption" value="nip"/>
+</field>
+<field id="nama_pegawai"><phrase id="fldcaption" value="nama pegawai"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="tmp_lahir"><phrase id="fldcaption" value="tmp lahir"/>
+</field>
+<field id="tgl_lahir"><phrase id="fldcaption" value="tgl lahir"/>
+</field>
+<field id="no_tlp"><phrase id="fldcaption" value="no tlp"/>
+</field>
+<field id="no_hp"><phrase id="fldcaption" value="no hp"/>
+</field>
+<field id="usr_pass"><phrase id="fldcaption" value="usr pass"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_peristiwa"><phrase id="tblcaption" value="rm peristiwa"/>
+<field id="id_peristiwa"><phrase id="fldcaption" value="id peristiwa"/>
+</field>
+<field id="peristiwa"><phrase id="fldcaption" value="peristiwa"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_perujuk"><phrase id="tblcaption" value="rm perujuk"/>
+<field id="id_perujuk"><phrase id="fldcaption" value="id perujuk"/>
+</field>
+<field id="id_asal_rujukan"><phrase id="fldcaption" value="id asal rujukan"/>
+</field>
+<field id="nama_perujuk"><phrase id="fldcaption" value="nama perujuk"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_racikan"><phrase id="tblcaption" value="rm racikan"/>
+<field id="id_racikan"><phrase id="fldcaption" value="id racikan"/>
+</field>
+<field id="id_faktur_penjualan"><phrase id="fldcaption" value="id faktur penjualan"/>
+</field>
+<field id="racikan"><phrase id="fldcaption" value="racikan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_radiologi"><phrase id="tblcaption" value="rm radiologi"/>
+<field id="id_radiologi"><phrase id="fldcaption" value="id radiologi"/>
+</field>
+<field id="id_kelompok_radiologi"><phrase id="fldcaption" value="id kelompok radiologi"/>
+</field>
+<field id="id_kelompok_layanan"><phrase id="fldcaption" value="id kelompok layanan"/>
+</field>
+<field id="radiologi"><phrase id="fldcaption" value="radiologi"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_retur_penjualan_obat"><phrase id="tblcaption" value="rm retur penjualan obat"/>
+<field id="id_retur_penjualan_obat"><phrase id="fldcaption" value="id retur penjualan obat"/>
+</field>
+<field id="id_faktur_penjualan"><phrase id="fldcaption" value="id faktur penjualan"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="jumlah"/>
+</field>
+<field id="pros_retur"><phrase id="fldcaption" value="pros retur"/>
+</field>
+<field id="jns_retur"><phrase id="fldcaption" value="jns retur"/>
+</field>
+<field id="tgl_retur"><phrase id="fldcaption" value="tgl retur"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="id_retur"><phrase id="fldcaption" value="id retur"/>
+</field>
+</table>
+<table id="rm_rpd"><phrase id="tblcaption" value="rm rpd"/>
+<field id="id_rpd"><phrase id="fldcaption" value="id rpd"/>
+</field>
+<field id="rpd"><phrase id="fldcaption" value="rpd"/>
+</field>
+</table>
+<table id="rm_ruang"><phrase id="tblcaption" value="rm ruang"/>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_tipe_ruang"><phrase id="fldcaption" value="id tipe ruang"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_ruang_pendaftaran"><phrase id="tblcaption" value="rm ruang pendaftaran"/>
+<field id="id_ruang_pendaftaran"><phrase id="fldcaption" value="id ruang pendaftaran"/>
+</field>
+<field id="id_tipe_pendaftaran"><phrase id="fldcaption" value="id tipe pendaftaran"/>
+</field>
+<field id="id_tipe_ruang"><phrase id="fldcaption" value="id tipe ruang"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_rujukan"><phrase id="tblcaption" value="rm rujukan"/>
+<field id="id_rujukan"><phrase id="fldcaption" value="id rujukan"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_asal_rujukan"><phrase id="fldcaption" value="id asal rujukan"/>
+</field>
+<field id="id_perujuk"><phrase id="fldcaption" value="id perujuk"/>
+</field>
+<field id="alasan_rujuk"><phrase id="fldcaption" value="alasan rujuk"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_sebab_mati"><phrase id="tblcaption" value="rm sebab mati"/>
+<field id="id_sebab_mati"><phrase id="fldcaption" value="id sebab mati"/>
+</field>
+<field id="sebab_mati"><phrase id="fldcaption" value="sebab mati"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_setoran_kasir"><phrase id="tblcaption" value="rm setoran kasir"/>
+<field id="id_setoran"><phrase id="fldcaption" value="id setoran"/>
+</field>
+<field id="tgl_setoran"><phrase id="fldcaption" value="tgl setoran"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="jumlah"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+</table>
+<table id="rm_shift"><phrase id="tblcaption" value="rm shift"/>
+<field id="id_shift"><phrase id="fldcaption" value="id shift"/>
+</field>
+<field id="shift"><phrase id="fldcaption" value="shift"/>
+</field>
+<field id="jam_awal"><phrase id="fldcaption" value="jam awal"/>
+</field>
+<field id="jam_akhir"><phrase id="fldcaption" value="jam akhir"/>
+</field>
+</table>
+<table id="rm_stock_barang"><phrase id="tblcaption" value="rm stock barang"/>
+<field id="id_stock_barang"><phrase id="fldcaption" value="id stock barang"/>
+</field>
+<field id="id_barang"><phrase id="fldcaption" value="id barang"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="jumlah_stock"><phrase id="fldcaption" value="jumlah stock"/>
+</field>
+<field id="stock_limit"><phrase id="fldcaption" value="stock limit"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_stock_obat"><phrase id="tblcaption" value="rm stock obat"/>
+<field id="id_stock_obat"><phrase id="fldcaption" value="id stock obat"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="id_penyimpanan"><phrase id="fldcaption" value="id penyimpanan"/>
+</field>
+<field id="stock_lama"><phrase id="fldcaption" value="stock lama"/>
+</field>
+<field id="stock_baru"><phrase id="fldcaption" value="stock baru"/>
+</field>
+<field id="stock"><phrase id="fldcaption" value="stock"/>
+</field>
+<field id="stock_limit"><phrase id="fldcaption" value="stock limit"/>
+</field>
+<field id="tgl_kadaluarsa_lama"><phrase id="fldcaption" value="tgl kadaluarsa lama"/>
+</field>
+<field id="tgl_kadaluarsa_baru"><phrase id="fldcaption" value="tgl kadaluarsa baru"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_stock_obat_apotik"><phrase id="tblcaption" value="rm stock obat apotik"/>
+<field id="id_stock_obat_apotik"><phrase id="fldcaption" value="id stock obat apotik"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="id_penyimpanan"><phrase id="fldcaption" value="id penyimpanan"/>
+</field>
+<field id="stock_lama"><phrase id="fldcaption" value="stock lama"/>
+</field>
+<field id="stock_baru"><phrase id="fldcaption" value="stock baru"/>
+</field>
+<field id="stock"><phrase id="fldcaption" value="stock"/>
+</field>
+<field id="stock_limit"><phrase id="fldcaption" value="stock limit"/>
+</field>
+<field id="tgl_kadaluarsa_lama"><phrase id="fldcaption" value="tgl kadaluarsa lama"/>
+</field>
+<field id="tgl_kadaluarsa_baru"><phrase id="fldcaption" value="tgl kadaluarsa baru"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_stock_obat_ruang"><phrase id="tblcaption" value="rm stock obat ruang"/>
+<field id="id_stock_obat_ruang"><phrase id="fldcaption" value="id stock obat ruang"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="id_penyimpanan"><phrase id="fldcaption" value="id penyimpanan"/>
+</field>
+<field id="stock_lama"><phrase id="fldcaption" value="stock lama"/>
+</field>
+<field id="stock_baru"><phrase id="fldcaption" value="stock baru"/>
+</field>
+<field id="stock"><phrase id="fldcaption" value="stock"/>
+</field>
+<field id="stock_limit"><phrase id="fldcaption" value="stock limit"/>
+</field>
+<field id="tgl_kadaluarsa_lama"><phrase id="fldcaption" value="tgl kadaluarsa lama"/>
+</field>
+<field id="tgl_kadaluarsa_baru"><phrase id="fldcaption" value="tgl kadaluarsa baru"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_summary"><phrase id="tblcaption" value="rm summary"/>
+<field id="id_summary"><phrase id="fldcaption" value="id summary"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="keluhan_utama"><phrase id="fldcaption" value="keluhan utama"/>
+</field>
+<field id="lama_penyakit"><phrase id="fldcaption" value="lama penyakit"/>
+</field>
+<field id="penyakit_terdahulu"><phrase id="fldcaption" value="penyakit terdahulu"/>
+</field>
+<field id="pengobatan_terakhir"><phrase id="fldcaption" value="pengobatan terakhir"/>
+</field>
+<field id="faktor_etiologi"><phrase id="fldcaption" value="faktor etiologi"/>
+</field>
+<field id="tinggi_badan"><phrase id="fldcaption" value="tinggi badan"/>
+</field>
+<field id="berat_badan"><phrase id="fldcaption" value="berat badan"/>
+</field>
+<field id="nadi"><phrase id="fldcaption" value="nadi"/>
+</field>
+<field id="tensi"><phrase id="fldcaption" value="tensi"/>
+</field>
+<field id="temperatur"><phrase id="fldcaption" value="temperatur"/>
+</field>
+<field id="nafas"><phrase id="fldcaption" value="nafas"/>
+</field>
+<field id="hasil_lab"><phrase id="fldcaption" value="hasil lab"/>
+</field>
+<field id="radiologi"><phrase id="fldcaption" value="radiologi"/>
+</field>
+<field id="diagnosa_terakhir"><phrase id="fldcaption" value="diagnosa terakhir"/>
+</field>
+<field id="diagnosis_pa"><phrase id="fldcaption" value="diagnosis pa"/>
+</field>
+<field id="masalah"><phrase id="fldcaption" value="masalah"/>
+</field>
+<field id="konsultasi"><phrase id="fldcaption" value="konsultasi"/>
+</field>
+<field id="pengobatan"><phrase id="fldcaption" value="pengobatan"/>
+</field>
+<field id="fasilitas"><phrase id="fldcaption" value="fasilitas"/>
+</field>
+<field id="perjalanan_penyakit"><phrase id="fldcaption" value="perjalanan penyakit"/>
+</field>
+<field id="id_keadaan_kelaur"><phrase id="fldcaption" value="id keadaan kelaur"/>
+</field>
+<field id="prognosis"><phrase id="fldcaption" value="prognosis"/>
+</field>
+<field id="id_sebab_meninggal"><phrase id="fldcaption" value="id sebab meninggal"/>
+</field>
+<field id="usulan"><phrase id="fldcaption" value="usulan"/>
+</field>
+<field id="date_entry"><phrase id="fldcaption" value="date entry"/>
+</field>
+<field id="date_update"><phrase id="fldcaption" value="date update"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+</table>
+<table id="rm_supplier"><phrase id="tblcaption" value="rm supplier"/>
+<field id="id_supplier"><phrase id="fldcaption" value="id supplier"/>
+</field>
+<field id="supplier"><phrase id="fldcaption" value="supplier"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tagihan_asuransi"><phrase id="tblcaption" value="rm tagihan asuransi"/>
+<field id="id_tagihan_asuransi"><phrase id="fldcaption" value="id tagihan asuransi"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="asuransi"><phrase id="fldcaption" value="asuransi"/>
+</field>
+<field id="level"><phrase id="fldcaption" value="level"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tarif_kamar"><phrase id="tblcaption" value="rm tarif kamar"/>
+<field id="id_tarif_kamar"><phrase id="fldcaption" value="id tarif kamar"/>
+</field>
+<field id="id_kamar"><phrase id="fldcaption" value="id kamar"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="jasa perawat"/>
+</field>
+<field id="catering"><phrase id="fldcaption" value="catering"/>
+</field>
+<field id="akomodasi"><phrase id="fldcaption" value="akomodasi"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tarif_laboratorium"><phrase id="tblcaption" value="rm tarif laboratorium"/>
+<field id="id_tarif_laboratorium"><phrase id="fldcaption" value="id tarif laboratorium"/>
+</field>
+<field id="id_laboratorium"><phrase id="fldcaption" value="id laboratorium"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tarif_obat"><phrase id="tblcaption" value="rm tarif obat"/>
+<field id="id_tarif_obat"><phrase id="fldcaption" value="id tarif obat"/>
+</field>
+<field id="id_obat"><phrase id="fldcaption" value="id obat"/>
+</field>
+<field id="hpp"><phrase id="fldcaption" value="hpp"/>
+</field>
+<field id="umum"><phrase id="fldcaption" value="umum"/>
+</field>
+<field id="askes"><phrase id="fldcaption" value="askes"/>
+</field>
+<field id="jps"><phrase id="fldcaption" value="jps"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tarif_radiologi"><phrase id="tblcaption" value="rm tarif radiologi"/>
+<field id="id_tarif_radiologi"><phrase id="fldcaption" value="id tarif radiologi"/>
+</field>
+<field id="id_radiologi"><phrase id="fldcaption" value="id radiologi"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tarif_tindakan"><phrase id="tblcaption" value="rm tarif tindakan"/>
+<field id="id_tarif_tindakan"><phrase id="fldcaption" value="id tarif tindakan"/>
+</field>
+<field id="id_tindakan"><phrase id="fldcaption" value="id tindakan"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tarif_visit"><phrase id="tblcaption" value="rm tarif visit"/>
+<field id="id_tarif_visit"><phrase id="fldcaption" value="id tarif visit"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_jenis_dokter"><phrase id="fldcaption" value="id jenis dokter"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tindakan"><phrase id="tblcaption" value="rm tindakan"/>
+<field id="id_tindakan"><phrase id="fldcaption" value="id tindakan"/>
+</field>
+<field id="id_jenis_tindakan"><phrase id="fldcaption" value="id jenis tindakan"/>
+</field>
+<field id="id_kelompok_layanan"><phrase id="fldcaption" value="id kelompok layanan"/>
+</field>
+<field id="tindakan"><phrase id="fldcaption" value="tindakan"/>
+</field>
+<field id="icd"><phrase id="fldcaption" value="icd"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tindakan_ruang"><phrase id="tblcaption" value="rm tindakan ruang"/>
+<field id="id_tindakan_ruang"><phrase id="fldcaption" value="id tindakan ruang"/>
+</field>
+<field id="id_pelaku_tindakan"><phrase id="fldcaption" value="id pelaku tindakan"/>
+</field>
+<field id="id_detail_tindakan"><phrase id="fldcaption" value="id detail tindakan"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tarif_tindakan"><phrase id="fldcaption" value="id tarif tindakan"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="advice"><phrase id="fldcaption" value="advice"/>
+</field>
+<field id="tgl_tindakan"><phrase id="fldcaption" value="tgl tindakan"/>
+</field>
+<field id="jml"><phrase id="fldcaption" value="jml"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+</table>
+<table id="rm_tindakan_ruang_medis"><phrase id="tblcaption" value="rm tindakan ruang medis"/>
+<field id="id_tindakan_ruang_medis"><phrase id="fldcaption" value="id tindakan ruang medis"/>
+</field>
+<field id="id_tindakan_medis"><phrase id="fldcaption" value="id tindakan medis"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="dokter_operator"><phrase id="fldcaption" value="dokter operator"/>
+</field>
+<field id="dokter_anastesi"><phrase id="fldcaption" value="dokter anastesi"/>
+</field>
+<field id="advice"><phrase id="fldcaption" value="advice"/>
+</field>
+<field id="cito"><phrase id="fldcaption" value="cito"/>
+</field>
+<field id="alat_tamu"><phrase id="fldcaption" value="alat tamu"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="penambahan_tarif"><phrase id="fldcaption" value="penambahan tarif"/>
+</field>
+<field id="tgl_tindakan"><phrase id="fldcaption" value="tgl tindakan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="jml"><phrase id="fldcaption" value="jml"/>
+</field>
+</table>
+<table id="rm_tipe_asuransi"><phrase id="tblcaption" value="rm tipe asuransi"/>
+<field id="id_tipe_asuransi"><phrase id="fldcaption" value="id tipe asuransi"/>
+</field>
+<field id="tipe_asuransi"><phrase id="fldcaption" value="tipe asuransi"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tipe_balance"><phrase id="tblcaption" value="rm tipe balance"/>
+<field id="id_keperluan"><phrase id="fldcaption" value="id keperluan"/>
+</field>
+<field id="keperluan"><phrase id="fldcaption" value="keperluan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tipe_jasa"><phrase id="tblcaption" value="rm tipe jasa"/>
+<field id="id_tipe_jasa"><phrase id="fldcaption" value="id tipe jasa"/>
+</field>
+<field id="tipe_jasa"><phrase id="fldcaption" value="tipe jasa"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tipe_pasien"><phrase id="tblcaption" value="rm tipe pasien"/>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_tipe_asuransi"><phrase id="fldcaption" value="id tipe asuransi"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="tipe pasien"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tipe_pendaftaran"><phrase id="tblcaption" value="rm tipe pendaftaran"/>
+<field id="id_tipe_pendaftaran"><phrase id="fldcaption" value="id tipe pendaftaran"/>
+</field>
+<field id="tipe_pendaftaran"><phrase id="fldcaption" value="tipe pendaftaran"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tipe_ruang"><phrase id="tblcaption" value="rm tipe ruang"/>
+<field id="id_tipe_ruang"><phrase id="fldcaption" value="id tipe ruang"/>
+</field>
+<field id="tipe_ruang"><phrase id="fldcaption" value="tipe ruang"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_tipe_tarif"><phrase id="tblcaption" value="rm tipe tarif"/>
+<field id="id_tipe_tarif"><phrase id="fldcaption" value="id tipe tarif"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="tipe_tarif"><phrase id="fldcaption" value="tipe tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_title"><phrase id="tblcaption" value="rm title"/>
+<field id="id_title"><phrase id="fldcaption" value="id title"/>
+</field>
+<field id="title"><phrase id="fldcaption" value="title"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_transportasi"><phrase id="tblcaption" value="rm transportasi"/>
+<field id="id_transportasi"><phrase id="fldcaption" value="id transportasi"/>
+</field>
+<field id="transportasi"><phrase id="fldcaption" value="transportasi"/>
+</field>
+</table>
+<table id="rm_triage"><phrase id="tblcaption" value="rm triage"/>
+<field id="id_triage"><phrase id="fldcaption" value="id triage"/>
+</field>
+<field id="triage"><phrase id="fldcaption" value="triage"/>
+</field>
+</table>
+<table id="rm_unit_pelayanan"><phrase id="tblcaption" value="rm unit pelayanan"/>
+<field id="id_unit_pelayanan"><phrase id="fldcaption" value="id unit pelayanan"/>
+</field>
+<field id="unit_pelayanan"><phrase id="fldcaption" value="unit pelayanan"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="rm_visit"><phrase id="tblcaption" value="rm visit"/>
+<field id="id_visit"><phrase id="fldcaption" value="id visit"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_detail_kamar"><phrase id="fldcaption" value="id detail kamar"/>
+</field>
+<field id="id_dokter"><phrase id="fldcaption" value="id dokter"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tgl_visit"><phrase id="fldcaption" value="tgl visit"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="ctr"><phrase id="fldcaption" value="ctr"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+</table>
+<table id="rm_pasien_copy"><phrase id="tblcaption" value="rm pasien copy"/>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="id_title"><phrase id="fldcaption" value="id title"/>
+</field>
+<field id="id_agama"><phrase id="fldcaption" value="id agama"/>
+</field>
+<field id="id_kota"><phrase id="fldcaption" value="id kota"/>
+</field>
+<field id="id_kecamatan"><phrase id="fldcaption" value="id kecamatan"/>
+</field>
+<field id="id_kelurahan"><phrase id="fldcaption" value="id kelurahan"/>
+</field>
+<field id="id_tipe_asuransi"><phrase id="fldcaption" value="id tipe asuransi"/>
+</field>
+<field id="id_kelamin"><phrase id="fldcaption" value="id kelamin"/>
+</field>
+<field id="id_marital"><phrase id="fldcaption" value="id marital"/>
+</field>
+<field id="id_pendidikan"><phrase id="fldcaption" value="id pendidikan"/>
+</field>
+<field id="id_tipe_pasien"><phrase id="fldcaption" value="id tipe pasien"/>
+</field>
+<field id="id_gol_darah"><phrase id="fldcaption" value="id gol darah"/>
+</field>
+<field id="prefix"><phrase id="fldcaption" value="prefix"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="nama pasien"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+<field id="no_tlp"><phrase id="fldcaption" value="no tlp"/>
+</field>
+<field id="no_hp"><phrase id="fldcaption" value="no hp"/>
+</field>
+<field id="tmp_lahir"><phrase id="fldcaption" value="tmp lahir"/>
+</field>
+<field id="tgl_lahir"><phrase id="fldcaption" value="tgl lahir"/>
+</field>
+<field id="suku"><phrase id="fldcaption" value="suku"/>
+</field>
+<field id="kebangsaan"><phrase id="fldcaption" value="kebangsaan"/>
+</field>
+<field id="tgl_tambah"><phrase id="fldcaption" value="tgl tambah"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="detail_tindakan"><phrase id="tblcaption" value="detail tindakan"/>
+<field id="id_tindakan"><phrase id="fldcaption" value="id tindakan"/>
+</field>
+<field id="tindakan"><phrase id="fldcaption" value="tindakan"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+</table>
+<table id="distribusi_obat"><phrase id="tblcaption" value="distribusi obat"/>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="kode obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="nama obat"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="stock"/>
+</field>
+</table>
+<table id="hasil_lab"><phrase id="tblcaption" value="hasil lab"/>
+<field id="no_kunjungan"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="tanggal"><phrase id="fldcaption" value="TANGGAL"/>
+</field>
+<field id="rm_px2e"><phrase id="fldcaption" value="RM Px."/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="NAMA PASIEN"/>
+</field>
+<field id="kelompok"><phrase id="fldcaption" value="KELOMPOK"/>
+</field>
+<field id="pemeriksaan"><phrase id="fldcaption" value="PEMERIKSAAN"/>
+</field>
+<field id="metode"><phrase id="fldcaption" value="METODE"/>
+</field>
+<field id="nilai_normal"><phrase id="fldcaption" value="NILAI NORMAL"/>
+</field>
+<field id="hasil"><phrase id="fldcaption" value="HASIL"/>
+</field>
+</table>
+<table id="jasa_kesmas"><phrase id="tblcaption" value="jasa kesmas"/>
+<field id="tanggal"><phrase id="fldcaption" value="TANGGAL"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="RUANG"/>
+</field>
+<field id="no_rm"><phrase id="fldcaption" value="NO RM"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="NAMA PASIEN"/>
+</field>
+<field id="pelaku"><phrase id="fldcaption" value="PELAKU"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="DOKTER"/>
+</field>
+<field id="tindakan"><phrase id="fldcaption" value="TINDAKAN"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="JUMLAH"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="TOTAL"/>
+</field>
+</table>
+<table id="jasa_tindakan"><phrase id="tblcaption" value="jasa tindakan"/>
+<field id="tanggal_layanan"><phrase id="fldcaption" value="Tanggal Layanan"/>
+</field>
+<field id="rm_px2e"><phrase id="fldcaption" value="RM Px."/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="Tipe Pasien"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="Kelas"/>
+</field>
+<field id="operator"><phrase id="fldcaption" value="Operator"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="Dokter"/>
+</field>
+<field id="tindakan"><phrase id="fldcaption" value="Tindakan"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="Tarif"/>
+</field>
+<field id="jasa_layanan"><phrase id="fldcaption" value="Jasa Layanan"/>
+</field>
+<field id="jasa_sarana"><phrase id="fldcaption" value="Jasa Sarana"/>
+</field>
+<field id="jasa_unit_penghasil"><phrase id="fldcaption" value="Jasa Unit Penghasil"/>
+</field>
+<field id="jasa_direksi"><phrase id="fldcaption" value="Jasa Direksi"/>
+</field>
+<field id="remunerasi"><phrase id="fldcaption" value="Remunerasi"/>
+</field>
+<field id="jasa_dokter"><phrase id="fldcaption" value="Jasa Dokter"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="Jasa Perawat"/>
+</field>
+</table>
+<table id="kelas_ruang"><phrase id="tblcaption" value="kelas ruang"/>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="init_daftar"><phrase id="fldcaption" value="init daftar"/>
+</field>
+</table>
+<table id="kesmas"><phrase id="tblcaption" value="kesmas"/>
+<field id="tanggal"><phrase id="fldcaption" value="TANGGAL"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="RUANG"/>
+</field>
+<field id="no_rm"><phrase id="fldcaption" value="NO RM"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="NAMA PASIEN"/>
+</field>
+<field id="pelaku"><phrase id="fldcaption" value="PELAKU"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="DOKTER"/>
+</field>
+<field id="tindakan"><phrase id="fldcaption" value="TINDAKAN"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="JUMLAH"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="TOTAL"/>
+</field>
+</table>
+<table id="kunjungan_rawat_jalan"><phrase id="tblcaption" value="kunjungan rawat jalan"/>
+<field id="ruang"><phrase id="fldcaption" value="RUANG"/>
+</field>
+<field id="tanggal_daftar"><phrase id="fldcaption" value="TANGGAL DAFTAR"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="TIPE PASIEN"/>
+</field>
+<field id="no_rm"><phrase id="fldcaption" value="NO RM"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="NAMA PASIEN"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="STATUS"/>
+</field>
+</table>
+<table id="lab"><phrase id="tblcaption" value="lab"/>
+<field id="laboratorium"><phrase id="fldcaption" value="laboratorium"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+</table>
+<table id="lab_hasil"><phrase id="tblcaption" value="lab hasil"/>
+<field id="nama_pasien"><phrase id="fldcaption" value="nama pasien"/>
+</field>
+<field id="kelompok_lab"><phrase id="fldcaption" value="kelompok lab"/>
+</field>
+<field id="laboratorium"><phrase id="fldcaption" value="laboratorium"/>
+</field>
+<field id="metode"><phrase id="fldcaption" value="metode"/>
+</field>
+<field id="nilai_normal"><phrase id="fldcaption" value="nilai normal"/>
+</field>
+<field id="hasil"><phrase id="fldcaption" value="hasil"/>
+</field>
+<field id="date28soegiri2erm_detail_laboratorium2etgl_pemeriksaan29"><phrase id="fldcaption" value="date (soegiri.rm detail laboratorium.tgl pemeriksaan)"/>
+</field>
+</table>
+<table id="obat"><phrase id="tblcaption" value="obat"/>
+<field id="kode_obat"><phrase id="fldcaption" value="kode obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="nama obat"/>
+</field>
+<field id="hpp"><phrase id="fldcaption" value="hpp"/>
+</field>
+<field id="umum"><phrase id="fldcaption" value="umum"/>
+</field>
+<field id="askes"><phrase id="fldcaption" value="askes"/>
+</field>
+<field id="jps"><phrase id="fldcaption" value="jps"/>
+</field>
+</table>
+<table id="pasien"><phrase id="tblcaption" value="pasien"/>
+<field id="id_pasien"><phrase id="fldcaption" value="id pasien"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="tipe pasien"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="nama pasien"/>
+</field>
+<field id="alamat"><phrase id="fldcaption" value="alamat"/>
+</field>
+</table>
+<table id="penjualanperpasien"><phrase id="tblcaption" value="penjualanperpasien"/>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam Transaksi"/>
+</field>
+</table>
+<table id="tindakan"><phrase id="tblcaption" value="tindakan"/>
+<field id="id_tindakan"><phrase id="fldcaption" value="id tindakan"/>
+</field>
+<field id="tindakan"><phrase id="fldcaption" value="tindakan"/>
+</field>
+<field id="jenis_tindakan"><phrase id="fldcaption" value="jenis tindakan"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+</table>
+<table id="penjualanperobat"><phrase id="tblcaption" value="penjualanperobat"/>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="penjualanperfaktur"><phrase id="tblcaption" value="penjualanperfaktur"/>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="Dokter"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="penjualanperpasienobat"><phrase id="tblcaption" value="penjualanperpasienobat"/>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="faktur"><phrase id="tblcaption" value="faktur"/>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="ibskelas"><phrase id="tblcaption" value="ibskelas"/>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="idp"><phrase id="fldcaption" value="idp"/>
+</field>
+</table>
+<table id="kelas_kamar"><phrase id="tblcaption" value="kelas kamar"/>
+<field id="id_kelas_kamar"><phrase id="fldcaption" value="id kelas kamar"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="kamar"><phrase id="fldcaption" value="kamar"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+</table>
+<table id="menu_medis"><phrase id="tblcaption" value="menu medis"/>
+<field id="id_menu"><phrase id="fldcaption" value="id menu"/>
+</field>
+<field id="nama_menu"><phrase id="fldcaption" value="nama menu"/>
+</field>
+<field id="jabatan"><phrase id="fldcaption" value="jabatan"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+</table>
+<table id="menu_pegawai"><phrase id="tblcaption" value="menu pegawai"/>
+<field id="id_menu"><phrase id="fldcaption" value="id menu"/>
+</field>
+<field id="nama_menu"><phrase id="fldcaption" value="nama menu"/>
+</field>
+<field id="jabatan"><phrase id="fldcaption" value="jabatan"/>
+</field>
+<field id="id_jabatan"><phrase id="fldcaption" value="id jabatan"/>
+</field>
+</table>
+<table id="racikan"><phrase id="tblcaption" value="racikan"/>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="retur"><phrase id="tblcaption" value="retur"/>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+</table>
+<table id="tarif_kamar"><phrase id="tblcaption" value="tarif kamar"/>
+<field id="id_tarif_kamar"><phrase id="fldcaption" value="id tarif kamar"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="kamar"><phrase id="fldcaption" value="kamar"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="akomodasi"><phrase id="fldcaption" value="akomodasi"/>
+</field>
+<field id="catering"><phrase id="fldcaption" value="catering"/>
+</field>
+<field id="jasa_perawat"><phrase id="fldcaption" value="jasa perawat"/>
+</field>
+</table>
+<table id="utilitaskelas"><phrase id="tblcaption" value="utilitaskelas"/>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="id_ruang"><phrase id="fldcaption" value="id ruang"/>
+</field>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+</table>
+<table id="visitkelas"><phrase id="tblcaption" value="visitkelas"/>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="kelas"><phrase id="fldcaption" value="kelas"/>
+</field>
+<field id="idp"><phrase id="fldcaption" value="idp"/>
+</field>
+</table>
+<table id="bahanradiologi"><phrase id="tblcaption" value="bahanradiologi"/>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+<field id="jam"><phrase id="fldcaption" value="Jam"/>
+</field>
+<field id="rm_px"><phrase id="fldcaption" value="RM Px"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="pemeriksaan"><phrase id="fldcaption" value="Pemeriksaan"/>
+</field>
+<field id="film"><phrase id="fldcaption" value="Film"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+</table>
+<table id="kunjunganlab"><phrase id="tblcaption" value="kunjunganlab"/>
+<field id="ruang_asal"><phrase id="fldcaption" value="Ruang Asal"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="Tipe Pasien"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+</table>
+<table id="lab_hasil_group"><phrase id="tblcaption" value="lab hasil group"/>
+<field id="nama_pasien"><phrase id="fldcaption" value="nama pasien"/>
+</field>
+<field id="kelompok_lab"><phrase id="fldcaption" value="kelompok lab"/>
+</field>
+<field id="laboratorium"><phrase id="fldcaption" value="laboratorium"/>
+</field>
+<field id="metode"><phrase id="fldcaption" value="metode"/>
+</field>
+<field id="nilai_normal"><phrase id="fldcaption" value="nilai normal"/>
+</field>
+<field id="hasil"><phrase id="fldcaption" value="hasil"/>
+</field>
+<field id="date28soegiri2erm_detail_laboratorium2etgl_pemeriksaan29"><phrase id="fldcaption" value="date (soegiri.rm detail laboratorium.tgl pemeriksaan)"/>
+</field>
+</table>
+<table id="pendapatanlabperpasien"><phrase id="tblcaption" value="pendapatanlabperpasien"/>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="Tipe Pasien"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="Total"/>
+</field>
+</table>
+<table id="kunjunganpasien"><phrase id="tblcaption" value="kunjunganpasien"/>
+<field id="no_rm"><phrase id="fldcaption" value="No RM"/>
+</field>
+<field id="nama_px"><phrase id="fldcaption" value="Nama Px"/>
+</field>
+<field id="tujuan"><phrase id="fldcaption" value="Tujuan"/>
+</field>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+</table>
+<table id="pendapatankarcis"><phrase id="tblcaption" value="pendapatankarcis"/>
+<field id="tipe_pasien"><phrase id="fldcaption" value="tipe pasien"/>
+</field>
+<field id="tipe_pendaftaran"><phrase id="fldcaption" value="tipe pendaftaran"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="jumlah_px"><phrase id="fldcaption" value="Jumlah Px"/>
+</field>
+<field id="biaya_total"><phrase id="fldcaption" value="Biaya Total"/>
+</field>
+<field id="date28a2etgl_pendaftaran29"><phrase id="fldcaption" value="date (a.tgl pendaftaran)"/>
+</field>
+</table>
+<table id="laporan_penjualan_per_pasien"><phrase id="tblcaption" value="Laporan Penjualan per Pasien"/>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam Transaksi"/>
+</field>
+</table>
+<table id="laporan_penjualan_per_obat"><phrase id="tblcaption" value="Laporan Penjualan Per Obat"/>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+</table>
+<table id="penjualan_per_faktur"><phrase id="tblcaption" value="Penjualan Per Faktur"/>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="Dokter"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+</table>
+<table id="laporan_penjualan_obat2fpasien"><phrase id="tblcaption" value="Laporan Penjualan Obar/ Pasien"/>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+</table>
+<table id="laporan_per_tanggal"><phrase id="tblcaption" value="Laporan per Tanggal"/>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+</table>
+<table id="laporan_dokter_per_obat"><phrase id="tblcaption" value="Laporan Dokter per Obat"/>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="Dokter"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+</table>
+<table id="laporan_obat_per_dokter"><phrase id="tblcaption" value="Laporan Obat per Dokter"/>
+<field id="faktur"><phrase id="fldcaption" value="Faktur"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="dokter"><phrase id="fldcaption" value="Dokter"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="tanggal_transaksi"><phrase id="fldcaption" value="Tanggal Transaksi"/>
+</field>
+<field id="qty"><phrase id="fldcaption" value="QTY"/>
+</field>
+<field id="harga"><phrase id="fldcaption" value="Harga"/>
+</field>
+<field id="diskon"><phrase id="fldcaption" value="Diskon"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="status"><phrase id="fldcaption" value="Status"/>
+</field>
+<field id="jam_transaksi"><phrase id="fldcaption" value="Jam"/>
+</field>
+</table>
+<table id="hasil_lab"><phrase id="tblcaption" value="Hasil Lab"/>
+<field id="tanggal"><phrase id="fldcaption" value="TANGGAL"/>
+</field>
+<field id="rm_px2e"><phrase id="fldcaption" value="RM Px."/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="NAMA PASIEN"/>
+</field>
+<field id="kelompok"><phrase id="fldcaption" value="KELOMPOK"/>
+</field>
+<field id="pemeriksaan"><phrase id="fldcaption" value="PEMERIKSAAN"/>
+</field>
+<field id="metode"><phrase id="fldcaption" value="METODE"/>
+</field>
+<field id="nilai_normal"><phrase id="fldcaption" value="NILAI NORMAL"/>
+</field>
+<field id="hasil"><phrase id="fldcaption" value="HASIL"/>
+</field>
+<field id="no_kunjungan"><phrase id="fldcaption" value="No Kunjungan"/>
+</field>
+</table>
+<table id="laporan_distribusi_obat"><phrase id="tblcaption" value="Laporan Distribusi Obat"/>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="Ruang"/>
+</field>
+<field id="kode_obat"><phrase id="fldcaption" value="Kode Obat"/>
+</field>
+<field id="nama_obat"><phrase id="fldcaption" value="Nama Obat"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+</table>
+<table id="laporan_pendapatan_lab"><phrase id="tblcaption" value="Laporan Pendapatan Lab"/>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="Tipe Pasien"/>
+</field>
+<field id="total"><phrase id="fldcaption" value="Total"/>
+</field>
+</table>
+<table id="laporan_kunjungan_lab"><phrase id="tblcaption" value="Laporan Kunjungan Lab"/>
+<field id="ruang_asal"><phrase id="fldcaption" value="Ruang Asal"/>
+</field>
+<field id="tipe_pasien"><phrase id="fldcaption" value="Tipe Pasien"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+</table>
+<table id="laporan_kunjungan_pasien"><phrase id="tblcaption" value="Laporan Kunjungan Pasien"/>
+<field id="no_rm"><phrase id="fldcaption" value="No RM"/>
+</field>
+<field id="nama_px"><phrase id="fldcaption" value="Nama Px"/>
+</field>
+<field id="tujuan"><phrase id="fldcaption" value="Tujuan"/>
+</field>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+</table>
+<table id="laporan_karcis"><phrase id="tblcaption" value="Laporan Karcis"/>
+<field id="tipe_pasien"><phrase id="fldcaption" value="tipe pasien"/>
+</field>
+<field id="tipe_pendaftaran"><phrase id="fldcaption" value="tipe pendaftaran"/>
+</field>
+<field id="ruang"><phrase id="fldcaption" value="ruang"/>
+</field>
+<field id="jumlah_px"><phrase id="fldcaption" value="Jumlah Px"/>
+</field>
+<field id="biaya_total"><phrase id="fldcaption" value="Biaya Total"/>
+</field>
+<field id="date28a2etgl_pendaftaran29"><phrase id="fldcaption" value="date (a.tgl pendaftaran)"/>
+</field>
+</table>
+<table id="rm_auto_out"><phrase id="tblcaption" value="rm auto out"/>
+<field id="id_pendaftaran"><phrase id="fldcaption" value="id pendaftaran"/>
+</field>
+<field id="jam_keluar"><phrase id="fldcaption" value="jam keluar"/>
+</field>
+</table>
+<table id="rm_retur"><phrase id="tblcaption" value="rm retur"/>
+<field id="id_retur"><phrase id="fldcaption" value="id retur"/>
+</field>
+<field id="id_faktur_penjualan"><phrase id="fldcaption" value="id faktur penjualan"/>
+</field>
+<field id="tgl_retur"><phrase id="fldcaption" value="tgl retur"/>
+</field>
+</table>
+<table id="rm_tarif_laboratorium_"><phrase id="tblcaption" value="rm tarif laboratorium "/>
+<field id="id_tarif_laboratorium"><phrase id="fldcaption" value="id tarif laboratorium"/>
+</field>
+<field id="id_laboratorium"><phrase id="fldcaption" value="id laboratorium"/>
+</field>
+<field id="id_kelas"><phrase id="fldcaption" value="id kelas"/>
+</field>
+<field id="tarif"><phrase id="fldcaption" value="tarif"/>
+</field>
+<field id="del_flag"><phrase id="fldcaption" value="del flag"/>
+</field>
+</table>
+<table id="laporan_bahan_radiologi"><phrase id="tblcaption" value="Laporan Bahan Radiologi"/>
+<field id="tanggal"><phrase id="fldcaption" value="Tanggal"/>
+</field>
+<field id="jam"><phrase id="fldcaption" value="Jam"/>
+</field>
+<field id="rm_px"><phrase id="fldcaption" value="RM Px"/>
+</field>
+<field id="nama_pasien"><phrase id="fldcaption" value="Nama Pasien"/>
+</field>
+<field id="pemeriksaan"><phrase id="fldcaption" value="Pemeriksaan"/>
+</field>
+<field id="film"><phrase id="fldcaption" value="Film"/>
+</field>
+<field id="jumlah"><phrase id="fldcaption" value="Jumlah"/>
+</field>
+</table>
+</project>
+</ew-language>
